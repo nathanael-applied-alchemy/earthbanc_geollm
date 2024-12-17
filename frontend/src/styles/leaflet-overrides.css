@@ -1,0 +1,289 @@
+/* Import base leaflet styles */
+.leaflet-draw-toolbar a {
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.leaflet-draw-toolbar a:hover {
+    background-color: #f4f4f4;
+}
+
+.leaflet-draw-actions {
+    display: none;
+}
+
+.leaflet-draw-actions li {
+    display: none;
+}
+
+.leaflet-draw-toolbar .leaflet-draw-draw-polygon {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAyIDcgMTIgMTIgMjIgNyAxMiAyIi8+PHBvbHlsaW5lIHBvaW50cz0iMiAyIDcgMTIgMTIgMjIgNyAxMiAyIi8+PC9zdmc+');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+}
+
+.leaflet-draw-toolbar {
+    margin-top: 0;
+    margin-left: -2px;
+}
+
+.leaflet-draw-toolbar a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+
+/* Keep draw control visible */
+.leaflet-draw.leaflet-control {
+  display: block !important;
+  opacity: 1 !important;
+}
+
+.leaflet-draw-toolbar {
+  display: block !important;
+  opacity: 1 !important;
+}
+
+.leaflet-draw-toolbar a {
+  background-color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.leaflet-draw-toolbar a:hover {
+  background-color: #f4f4f4;
+}
+
+.leaflet-draw-toolbar .leaflet-draw-draw-polygon {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAyIDcgMTIgMTIgMjIgNyAxMiAyIi8+PHBvbHlsaW5lIHBvaW50cz0iMiAyIDcgMTIgMTIgMjIgNyAxMiAyIi8+PC9zdmc+');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+}
+
+/* Make sure controls are visible and stay on top */
+.leaflet-draw.leaflet-control,
+.leaflet-draw-toolbar,
+.leaflet-draw-toolbar-top {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 1000 !important;
+  position: relative !important;
+}
+
+/* Style the toolbar buttons */
+.leaflet-draw-toolbar.leaflet-bar a {
+  display: block !important;
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  color: black !important;
+  background-color: white !important;
+  border: 2px solid rgba(0, 0, 0, 0.2) !important;
+  border-radius: 4px !important;
+  margin-bottom: 5px !important;
+  position: relative !important;
+  z-index: 1000 !important;
+}
+
+/* Ensure the control container stays on top */
+.leaflet-top.leaflet-left {
+  z-index: 1000 !important;
+  position: relative !important;
+}
+
+/* Force controls to stay visible */
+.leaflet-draw.leaflet-control,
+.leaflet-draw-toolbar,
+.leaflet-draw-toolbar-top,
+.leaflet-draw-section {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 10000 !important;
+  position: relative !important;
+  pointer-events: auto !important;
+}
+
+/* Ensure toolbar buttons stay visible */
+.leaflet-draw-toolbar.leaflet-bar {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.leaflet-draw-toolbar.leaflet-bar a {
+  display: block !important;
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  color: black !important;
+  background-color: white !important;
+  border: 2px solid rgba(0, 0, 0, 0.2) !important;
+  border-radius: 4px !important;
+  margin-bottom: 5px !important;
+  position: relative !important;
+  z-index: 10000 !important;
+  pointer-events: auto !important;
+}
+
+/* Control container positioning */
+.leaflet-top.leaflet-left {
+  z-index: 10000 !important;
+  position: relative !important;
+  pointer-events: auto !important;
+}
+
+/* Polygon button specific styles */
+.leaflet-draw-toolbar .leaflet-draw-draw-polygon {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAyIDcgMTIgMTIgMjIgNyAxMiAyIi8+PHBvbHlsaW5lIHBvaW50cz0iMiAyIDcgMTIgMTIgMjIgNyAxMiAyIi8+PC9zdmc+');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+}
+
+/* Control container sizing and positioning */
+.leaflet-control-container {
+  width: auto !important;
+  height: auto !important;
+  min-width: 30px !important;
+  min-height: 30px !important;
+}
+
+.leaflet-draw.leaflet-control {
+  width: auto !important;
+  height: auto !important;
+  min-width: 30px !important;
+  min-height: 30px !important;
+}
+
+.leaflet-draw-toolbar.leaflet-bar {
+  width: 30px !important;
+  height: auto !important;
+  min-height: 30px !important;
+}
+
+/* Force controls to stay visible */
+.leaflet-draw.leaflet-control,
+.leaflet-draw-toolbar,
+.leaflet-draw-toolbar-top,
+.leaflet-draw-section {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 10000 !important;
+  position: relative !important;
+  pointer-events: auto !important;
+}
+
+/* Rest of your existing styles... */
+
+/* Base control container */
+.leaflet-control-container {
+  position: absolute !important;
+  z-index: 1000 !important;
+  pointer-events: auto !important;
+}
+
+/* Top left controls - Adjust position to account for zoom controls */
+.leaflet-top.leaflet-left {
+  position: absolute !important;
+  top: 10px !important;
+  left: 10px !important;
+  z-index: 1000 !important;
+  width: 50px !important;
+  height: auto !important;
+}
+
+/* Position draw control below zoom controls */
+.leaflet-draw.leaflet-control {
+  position: absolute !important;
+  width: 30px !important;
+  height: auto !important;
+  margin: 0 !important;
+  top: 85px !important; /* Adjust this value to position below zoom controls */
+}
+
+/* Draw toolbar */
+.leaflet-draw-toolbar.leaflet-bar {
+  width: 30px !important;
+  height: auto !important;
+  margin: 0 !important;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4) !important;
+}
+
+/* Individual toolbar buttons */
+.leaflet-draw-toolbar.leaflet-bar a {
+  display: block !important;
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #000 !important;
+  font-size: 18px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  background-color: #fff !important;
+  border-bottom: 1px solid #ccc !important;
+  cursor: pointer !important;
+}
+
+/* Polygon button specific styles */
+.leaflet-draw-toolbar .leaflet-draw-draw-polygon {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAyIDcgMTIgMTIgMjIgNyAxMiAyIi8+PHBvbHlsaW5lIHBvaW50cz0iMiAyIDcgMTIgMTIgMjIgNyAxMiAyIi8+PC9zdmc+') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 16px !important;
+}
+
+/* Hover state */
+.leaflet-draw-toolbar.leaflet-bar a:hover {
+  background-color: #f4f4f4 !important;
+}
+
+/* Hide unnecessary elements */
+.leaflet-draw-actions {
+  display: none !important;
+}
+
+/* Ensure proper stacking */
+.leaflet-pane {
+  z-index: 1 !important;
+}
+
+.leaflet-control-container {
+  z-index: 2 !important;
+}
+
+/* Make sure controls are clickable */
+.leaflet-control {
+  pointer-events: auto !important;
+  cursor: auto !important;
+}
+
+/* Ensure zoom controls stay on top */
+.leaflet-control-zoom {
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+  z-index: 1001 !important;
+}

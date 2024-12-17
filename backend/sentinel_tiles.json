@@ -1,0 +1,6742 @@
+{
+    "metadata": {
+        "description": "Sentinel-2 10-degree tile references",
+        "version": "1.0",
+        "date_updated": "2024-01-16",
+        "coverage": "Global 10-degree tiles"
+    },
+    "tiles": {
+        "S80W180": {
+            "path": "sentinel/S80W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": -80,
+                "maxx": -170,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W170": {
+            "path": "sentinel/S80W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": -80,
+                "maxx": -160,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W160": {
+            "path": "sentinel/S80W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": -80,
+                "maxx": -150,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W150": {
+            "path": "sentinel/S80W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": -80,
+                "maxx": -140,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W140": {
+            "path": "sentinel/S80W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": -80,
+                "maxx": -130,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W130": {
+            "path": "sentinel/S80W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": -80,
+                "maxx": -120,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W120": {
+            "path": "sentinel/S80W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": -80,
+                "maxx": -110,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W110": {
+            "path": "sentinel/S80W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": -80,
+                "maxx": -100,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W100": {
+            "path": "sentinel/S80W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": -80,
+                "maxx": -90,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W090": {
+            "path": "sentinel/S80W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": -80,
+                "maxx": -80,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W080": {
+            "path": "sentinel/S80W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": -80,
+                "maxx": -70,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W070": {
+            "path": "sentinel/S80W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": -80,
+                "maxx": -60,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W060": {
+            "path": "sentinel/S80W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": -80,
+                "maxx": -50,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W050": {
+            "path": "sentinel/S80W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": -80,
+                "maxx": -40,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W040": {
+            "path": "sentinel/S80W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": -80,
+                "maxx": -30,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W030": {
+            "path": "sentinel/S80W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": -80,
+                "maxx": -20,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W020": {
+            "path": "sentinel/S80W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": -80,
+                "maxx": -10,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80W010": {
+            "path": "sentinel/S80W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": -80,
+                "maxx": 0,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E000": {
+            "path": "sentinel/S80E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": -80,
+                "maxx": 10,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E010": {
+            "path": "sentinel/S80E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": -80,
+                "maxx": 20,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E020": {
+            "path": "sentinel/S80E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": -80,
+                "maxx": 30,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E030": {
+            "path": "sentinel/S80E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": -80,
+                "maxx": 40,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E040": {
+            "path": "sentinel/S80E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": -80,
+                "maxx": 50,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E050": {
+            "path": "sentinel/S80E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": -80,
+                "maxx": 60,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E060": {
+            "path": "sentinel/S80E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": -80,
+                "maxx": 70,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E070": {
+            "path": "sentinel/S80E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": -80,
+                "maxx": 80,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E080": {
+            "path": "sentinel/S80E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": -80,
+                "maxx": 90,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E090": {
+            "path": "sentinel/S80E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": -80,
+                "maxx": 100,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E100": {
+            "path": "sentinel/S80E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": -80,
+                "maxx": 110,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E110": {
+            "path": "sentinel/S80E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": -80,
+                "maxx": 120,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E120": {
+            "path": "sentinel/S80E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": -80,
+                "maxx": 130,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E130": {
+            "path": "sentinel/S80E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": -80,
+                "maxx": 140,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E140": {
+            "path": "sentinel/S80E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": -80,
+                "maxx": 150,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E150": {
+            "path": "sentinel/S80E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": -80,
+                "maxx": 160,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E160": {
+            "path": "sentinel/S80E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": -80,
+                "maxx": 170,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S80E170": {
+            "path": "sentinel/S80E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": -80,
+                "maxx": 180,
+                "maxy": -70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W180": {
+            "path": "sentinel/S70W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": -70,
+                "maxx": -170,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W170": {
+            "path": "sentinel/S70W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": -70,
+                "maxx": -160,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W160": {
+            "path": "sentinel/S70W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": -70,
+                "maxx": -150,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W150": {
+            "path": "sentinel/S70W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": -70,
+                "maxx": -140,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W140": {
+            "path": "sentinel/S70W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": -70,
+                "maxx": -130,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W130": {
+            "path": "sentinel/S70W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": -70,
+                "maxx": -120,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W120": {
+            "path": "sentinel/S70W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": -70,
+                "maxx": -110,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W110": {
+            "path": "sentinel/S70W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": -70,
+                "maxx": -100,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W100": {
+            "path": "sentinel/S70W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": -70,
+                "maxx": -90,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W090": {
+            "path": "sentinel/S70W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": -70,
+                "maxx": -80,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W080": {
+            "path": "sentinel/S70W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": -70,
+                "maxx": -70,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W070": {
+            "path": "sentinel/S70W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": -70,
+                "maxx": -60,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W060": {
+            "path": "sentinel/S70W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": -70,
+                "maxx": -50,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W050": {
+            "path": "sentinel/S70W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": -70,
+                "maxx": -40,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W040": {
+            "path": "sentinel/S70W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": -70,
+                "maxx": -30,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W030": {
+            "path": "sentinel/S70W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": -70,
+                "maxx": -20,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W020": {
+            "path": "sentinel/S70W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": -70,
+                "maxx": -10,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70W010": {
+            "path": "sentinel/S70W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": -70,
+                "maxx": 0,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E000": {
+            "path": "sentinel/S70E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": -70,
+                "maxx": 10,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E010": {
+            "path": "sentinel/S70E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": -70,
+                "maxx": 20,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E020": {
+            "path": "sentinel/S70E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": -70,
+                "maxx": 30,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E030": {
+            "path": "sentinel/S70E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": -70,
+                "maxx": 40,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E040": {
+            "path": "sentinel/S70E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": -70,
+                "maxx": 50,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E050": {
+            "path": "sentinel/S70E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": -70,
+                "maxx": 60,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E060": {
+            "path": "sentinel/S70E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": -70,
+                "maxx": 70,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E070": {
+            "path": "sentinel/S70E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": -70,
+                "maxx": 80,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E080": {
+            "path": "sentinel/S70E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": -70,
+                "maxx": 90,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E090": {
+            "path": "sentinel/S70E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": -70,
+                "maxx": 100,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E100": {
+            "path": "sentinel/S70E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": -70,
+                "maxx": 110,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E110": {
+            "path": "sentinel/S70E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": -70,
+                "maxx": 120,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E120": {
+            "path": "sentinel/S70E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": -70,
+                "maxx": 130,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E130": {
+            "path": "sentinel/S70E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": -70,
+                "maxx": 140,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E140": {
+            "path": "sentinel/S70E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": -70,
+                "maxx": 150,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E150": {
+            "path": "sentinel/S70E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": -70,
+                "maxx": 160,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E160": {
+            "path": "sentinel/S70E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": -70,
+                "maxx": 170,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S70E170": {
+            "path": "sentinel/S70E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": -70,
+                "maxx": 180,
+                "maxy": -60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W180": {
+            "path": "sentinel/S60W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": -60,
+                "maxx": -170,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W170": {
+            "path": "sentinel/S60W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": -60,
+                "maxx": -160,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W160": {
+            "path": "sentinel/S60W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": -60,
+                "maxx": -150,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W150": {
+            "path": "sentinel/S60W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": -60,
+                "maxx": -140,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W140": {
+            "path": "sentinel/S60W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": -60,
+                "maxx": -130,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W130": {
+            "path": "sentinel/S60W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": -60,
+                "maxx": -120,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W120": {
+            "path": "sentinel/S60W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": -60,
+                "maxx": -110,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W110": {
+            "path": "sentinel/S60W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": -60,
+                "maxx": -100,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W100": {
+            "path": "sentinel/S60W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": -60,
+                "maxx": -90,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W090": {
+            "path": "sentinel/S60W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": -60,
+                "maxx": -80,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W080": {
+            "path": "sentinel/S60W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": -60,
+                "maxx": -70,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W070": {
+            "path": "sentinel/S60W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": -60,
+                "maxx": -60,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W060": {
+            "path": "sentinel/S60W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": -60,
+                "maxx": -50,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W050": {
+            "path": "sentinel/S60W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": -60,
+                "maxx": -40,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W040": {
+            "path": "sentinel/S60W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": -60,
+                "maxx": -30,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W030": {
+            "path": "sentinel/S60W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": -60,
+                "maxx": -20,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W020": {
+            "path": "sentinel/S60W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": -60,
+                "maxx": -10,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60W010": {
+            "path": "sentinel/S60W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": -60,
+                "maxx": 0,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E000": {
+            "path": "sentinel/S60E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": -60,
+                "maxx": 10,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E010": {
+            "path": "sentinel/S60E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": -60,
+                "maxx": 20,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E020": {
+            "path": "sentinel/S60E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": -60,
+                "maxx": 30,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E030": {
+            "path": "sentinel/S60E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": -60,
+                "maxx": 40,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E040": {
+            "path": "sentinel/S60E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": -60,
+                "maxx": 50,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E050": {
+            "path": "sentinel/S60E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": -60,
+                "maxx": 60,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E060": {
+            "path": "sentinel/S60E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": -60,
+                "maxx": 70,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E070": {
+            "path": "sentinel/S60E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": -60,
+                "maxx": 80,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E080": {
+            "path": "sentinel/S60E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": -60,
+                "maxx": 90,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E090": {
+            "path": "sentinel/S60E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": -60,
+                "maxx": 100,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E100": {
+            "path": "sentinel/S60E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": -60,
+                "maxx": 110,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E110": {
+            "path": "sentinel/S60E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": -60,
+                "maxx": 120,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E120": {
+            "path": "sentinel/S60E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": -60,
+                "maxx": 130,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E130": {
+            "path": "sentinel/S60E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": -60,
+                "maxx": 140,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E140": {
+            "path": "sentinel/S60E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": -60,
+                "maxx": 150,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E150": {
+            "path": "sentinel/S60E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": -60,
+                "maxx": 160,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E160": {
+            "path": "sentinel/S60E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": -60,
+                "maxx": 170,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S60E170": {
+            "path": "sentinel/S60E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": -60,
+                "maxx": 180,
+                "maxy": -50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W180": {
+            "path": "sentinel/S50W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": -50,
+                "maxx": -170,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W170": {
+            "path": "sentinel/S50W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": -50,
+                "maxx": -160,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W160": {
+            "path": "sentinel/S50W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": -50,
+                "maxx": -150,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W150": {
+            "path": "sentinel/S50W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": -50,
+                "maxx": -140,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W140": {
+            "path": "sentinel/S50W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": -50,
+                "maxx": -130,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W130": {
+            "path": "sentinel/S50W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": -50,
+                "maxx": -120,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W120": {
+            "path": "sentinel/S50W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": -50,
+                "maxx": -110,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W110": {
+            "path": "sentinel/S50W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": -50,
+                "maxx": -100,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W100": {
+            "path": "sentinel/S50W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": -50,
+                "maxx": -90,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W090": {
+            "path": "sentinel/S50W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": -50,
+                "maxx": -80,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W080": {
+            "path": "sentinel/S50W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": -50,
+                "maxx": -70,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W070": {
+            "path": "sentinel/S50W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": -50,
+                "maxx": -60,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W060": {
+            "path": "sentinel/S50W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": -50,
+                "maxx": -50,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W050": {
+            "path": "sentinel/S50W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": -50,
+                "maxx": -40,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W040": {
+            "path": "sentinel/S50W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": -50,
+                "maxx": -30,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W030": {
+            "path": "sentinel/S50W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": -50,
+                "maxx": -20,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W020": {
+            "path": "sentinel/S50W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": -50,
+                "maxx": -10,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50W010": {
+            "path": "sentinel/S50W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": -50,
+                "maxx": 0,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E000": {
+            "path": "sentinel/S50E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": -50,
+                "maxx": 10,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E010": {
+            "path": "sentinel/S50E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": -50,
+                "maxx": 20,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E020": {
+            "path": "sentinel/S50E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": -50,
+                "maxx": 30,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E030": {
+            "path": "sentinel/S50E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": -50,
+                "maxx": 40,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E040": {
+            "path": "sentinel/S50E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": -50,
+                "maxx": 50,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E050": {
+            "path": "sentinel/S50E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": -50,
+                "maxx": 60,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E060": {
+            "path": "sentinel/S50E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": -50,
+                "maxx": 70,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E070": {
+            "path": "sentinel/S50E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": -50,
+                "maxx": 80,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E080": {
+            "path": "sentinel/S50E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": -50,
+                "maxx": 90,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E090": {
+            "path": "sentinel/S50E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": -50,
+                "maxx": 100,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E100": {
+            "path": "sentinel/S50E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": -50,
+                "maxx": 110,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E110": {
+            "path": "sentinel/S50E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": -50,
+                "maxx": 120,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E120": {
+            "path": "sentinel/S50E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": -50,
+                "maxx": 130,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E130": {
+            "path": "sentinel/S50E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": -50,
+                "maxx": 140,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E140": {
+            "path": "sentinel/S50E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": -50,
+                "maxx": 150,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E150": {
+            "path": "sentinel/S50E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": -50,
+                "maxx": 160,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E160": {
+            "path": "sentinel/S50E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": -50,
+                "maxx": 170,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S50E170": {
+            "path": "sentinel/S50E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": -50,
+                "maxx": 180,
+                "maxy": -40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W180": {
+            "path": "sentinel/S40W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": -40,
+                "maxx": -170,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W170": {
+            "path": "sentinel/S40W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": -40,
+                "maxx": -160,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W160": {
+            "path": "sentinel/S40W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": -40,
+                "maxx": -150,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W150": {
+            "path": "sentinel/S40W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": -40,
+                "maxx": -140,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W140": {
+            "path": "sentinel/S40W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": -40,
+                "maxx": -130,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W130": {
+            "path": "sentinel/S40W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": -40,
+                "maxx": -120,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W120": {
+            "path": "sentinel/S40W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": -40,
+                "maxx": -110,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W110": {
+            "path": "sentinel/S40W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": -40,
+                "maxx": -100,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W100": {
+            "path": "sentinel/S40W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": -40,
+                "maxx": -90,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W090": {
+            "path": "sentinel/S40W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": -40,
+                "maxx": -80,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W080": {
+            "path": "sentinel/S40W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": -40,
+                "maxx": -70,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W070": {
+            "path": "sentinel/S40W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": -40,
+                "maxx": -60,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W060": {
+            "path": "sentinel/S40W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": -40,
+                "maxx": -50,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W050": {
+            "path": "sentinel/S40W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": -40,
+                "maxx": -40,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W040": {
+            "path": "sentinel/S40W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": -40,
+                "maxx": -30,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W030": {
+            "path": "sentinel/S40W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": -40,
+                "maxx": -20,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W020": {
+            "path": "sentinel/S40W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": -40,
+                "maxx": -10,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40W010": {
+            "path": "sentinel/S40W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": -40,
+                "maxx": 0,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E000": {
+            "path": "sentinel/S40E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": -40,
+                "maxx": 10,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E010": {
+            "path": "sentinel/S40E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": -40,
+                "maxx": 20,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E020": {
+            "path": "sentinel/S40E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": -40,
+                "maxx": 30,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E030": {
+            "path": "sentinel/S40E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": -40,
+                "maxx": 40,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E040": {
+            "path": "sentinel/S40E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": -40,
+                "maxx": 50,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E050": {
+            "path": "sentinel/S40E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": -40,
+                "maxx": 60,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E060": {
+            "path": "sentinel/S40E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": -40,
+                "maxx": 70,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E070": {
+            "path": "sentinel/S40E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": -40,
+                "maxx": 80,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E080": {
+            "path": "sentinel/S40E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": -40,
+                "maxx": 90,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E090": {
+            "path": "sentinel/S40E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": -40,
+                "maxx": 100,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E100": {
+            "path": "sentinel/S40E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": -40,
+                "maxx": 110,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E110": {
+            "path": "sentinel/S40E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": -40,
+                "maxx": 120,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E120": {
+            "path": "sentinel/S40E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": -40,
+                "maxx": 130,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E130": {
+            "path": "sentinel/S40E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": -40,
+                "maxx": 140,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E140": {
+            "path": "sentinel/S40E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": -40,
+                "maxx": 150,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E150": {
+            "path": "sentinel/S40E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": -40,
+                "maxx": 160,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E160": {
+            "path": "sentinel/S40E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": -40,
+                "maxx": 170,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S40E170": {
+            "path": "sentinel/S40E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": -40,
+                "maxx": 180,
+                "maxy": -30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W180": {
+            "path": "sentinel/S30W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": -30,
+                "maxx": -170,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W170": {
+            "path": "sentinel/S30W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": -30,
+                "maxx": -160,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W160": {
+            "path": "sentinel/S30W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": -30,
+                "maxx": -150,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W150": {
+            "path": "sentinel/S30W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": -30,
+                "maxx": -140,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W140": {
+            "path": "sentinel/S30W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": -30,
+                "maxx": -130,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W130": {
+            "path": "sentinel/S30W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": -30,
+                "maxx": -120,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W120": {
+            "path": "sentinel/S30W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": -30,
+                "maxx": -110,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W110": {
+            "path": "sentinel/S30W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": -30,
+                "maxx": -100,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W100": {
+            "path": "sentinel/S30W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": -30,
+                "maxx": -90,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W090": {
+            "path": "sentinel/S30W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": -30,
+                "maxx": -80,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W080": {
+            "path": "sentinel/S30W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": -30,
+                "maxx": -70,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W070": {
+            "path": "sentinel/S30W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": -30,
+                "maxx": -60,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W060": {
+            "path": "sentinel/S30W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": -30,
+                "maxx": -50,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W050": {
+            "path": "sentinel/S30W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": -30,
+                "maxx": -40,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W040": {
+            "path": "sentinel/S30W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": -30,
+                "maxx": -30,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W030": {
+            "path": "sentinel/S30W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": -30,
+                "maxx": -20,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W020": {
+            "path": "sentinel/S30W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": -30,
+                "maxx": -10,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30W010": {
+            "path": "sentinel/S30W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": -30,
+                "maxx": 0,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E000": {
+            "path": "sentinel/S30E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": -30,
+                "maxx": 10,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E010": {
+            "path": "sentinel/S30E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": -30,
+                "maxx": 20,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E020": {
+            "path": "sentinel/S30E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": -30,
+                "maxx": 30,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E030": {
+            "path": "sentinel/S30E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": -30,
+                "maxx": 40,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E040": {
+            "path": "sentinel/S30E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": -30,
+                "maxx": 50,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E050": {
+            "path": "sentinel/S30E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": -30,
+                "maxx": 60,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E060": {
+            "path": "sentinel/S30E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": -30,
+                "maxx": 70,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E070": {
+            "path": "sentinel/S30E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": -30,
+                "maxx": 80,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E080": {
+            "path": "sentinel/S30E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": -30,
+                "maxx": 90,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E090": {
+            "path": "sentinel/S30E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": -30,
+                "maxx": 100,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E100": {
+            "path": "sentinel/S30E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": -30,
+                "maxx": 110,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E110": {
+            "path": "sentinel/S30E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": -30,
+                "maxx": 120,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E120": {
+            "path": "sentinel/S30E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": -30,
+                "maxx": 130,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E130": {
+            "path": "sentinel/S30E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": -30,
+                "maxx": 140,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E140": {
+            "path": "sentinel/S30E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": -30,
+                "maxx": 150,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E150": {
+            "path": "sentinel/S30E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": -30,
+                "maxx": 160,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E160": {
+            "path": "sentinel/S30E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": -30,
+                "maxx": 170,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S30E170": {
+            "path": "sentinel/S30E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": -30,
+                "maxx": 180,
+                "maxy": -20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W180": {
+            "path": "sentinel/S20W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": -20,
+                "maxx": -170,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W170": {
+            "path": "sentinel/S20W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": -20,
+                "maxx": -160,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W160": {
+            "path": "sentinel/S20W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": -20,
+                "maxx": -150,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W150": {
+            "path": "sentinel/S20W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": -20,
+                "maxx": -140,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W140": {
+            "path": "sentinel/S20W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": -20,
+                "maxx": -130,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W130": {
+            "path": "sentinel/S20W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": -20,
+                "maxx": -120,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W120": {
+            "path": "sentinel/S20W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": -20,
+                "maxx": -110,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W110": {
+            "path": "sentinel/S20W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": -20,
+                "maxx": -100,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W100": {
+            "path": "sentinel/S20W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": -20,
+                "maxx": -90,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W090": {
+            "path": "sentinel/S20W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": -20,
+                "maxx": -80,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W080": {
+            "path": "sentinel/S20W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": -20,
+                "maxx": -70,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W070": {
+            "path": "sentinel/S20W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": -20,
+                "maxx": -60,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W060": {
+            "path": "sentinel/S20W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": -20,
+                "maxx": -50,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W050": {
+            "path": "sentinel/S20W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": -20,
+                "maxx": -40,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W040": {
+            "path": "sentinel/S20W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": -20,
+                "maxx": -30,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W030": {
+            "path": "sentinel/S20W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": -20,
+                "maxx": -20,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W020": {
+            "path": "sentinel/S20W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": -20,
+                "maxx": -10,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20W010": {
+            "path": "sentinel/S20W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": -20,
+                "maxx": 0,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E000": {
+            "path": "sentinel/S20E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": -20,
+                "maxx": 10,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E010": {
+            "path": "sentinel/S20E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": -20,
+                "maxx": 20,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E020": {
+            "path": "sentinel/S20E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": -20,
+                "maxx": 30,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E030": {
+            "path": "sentinel/S20E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": -20,
+                "maxx": 40,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E040": {
+            "path": "sentinel/S20E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": -20,
+                "maxx": 50,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E050": {
+            "path": "sentinel/S20E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": -20,
+                "maxx": 60,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E060": {
+            "path": "sentinel/S20E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": -20,
+                "maxx": 70,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E070": {
+            "path": "sentinel/S20E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": -20,
+                "maxx": 80,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E080": {
+            "path": "sentinel/S20E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": -20,
+                "maxx": 90,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E090": {
+            "path": "sentinel/S20E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": -20,
+                "maxx": 100,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E100": {
+            "path": "sentinel/S20E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": -20,
+                "maxx": 110,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E110": {
+            "path": "sentinel/S20E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": -20,
+                "maxx": 120,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E120": {
+            "path": "sentinel/S20E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": -20,
+                "maxx": 130,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E130": {
+            "path": "sentinel/S20E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": -20,
+                "maxx": 140,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E140": {
+            "path": "sentinel/S20E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": -20,
+                "maxx": 150,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E150": {
+            "path": "sentinel/S20E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": -20,
+                "maxx": 160,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E160": {
+            "path": "sentinel/S20E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": -20,
+                "maxx": 170,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S20E170": {
+            "path": "sentinel/S20E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": -20,
+                "maxx": 180,
+                "maxy": -10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W180": {
+            "path": "sentinel/S10W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": -10,
+                "maxx": -170,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W170": {
+            "path": "sentinel/S10W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": -10,
+                "maxx": -160,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W160": {
+            "path": "sentinel/S10W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": -10,
+                "maxx": -150,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W150": {
+            "path": "sentinel/S10W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": -10,
+                "maxx": -140,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W140": {
+            "path": "sentinel/S10W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": -10,
+                "maxx": -130,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W130": {
+            "path": "sentinel/S10W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": -10,
+                "maxx": -120,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W120": {
+            "path": "sentinel/S10W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": -10,
+                "maxx": -110,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W110": {
+            "path": "sentinel/S10W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": -10,
+                "maxx": -100,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W100": {
+            "path": "sentinel/S10W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": -10,
+                "maxx": -90,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W090": {
+            "path": "sentinel/S10W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": -10,
+                "maxx": -80,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W080": {
+            "path": "sentinel/S10W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": -10,
+                "maxx": -70,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W070": {
+            "path": "sentinel/S10W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": -10,
+                "maxx": -60,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W060": {
+            "path": "sentinel/S10W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": -10,
+                "maxx": -50,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W050": {
+            "path": "sentinel/S10W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": -10,
+                "maxx": -40,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W040": {
+            "path": "sentinel/S10W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": -10,
+                "maxx": -30,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W030": {
+            "path": "sentinel/S10W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": -10,
+                "maxx": -20,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W020": {
+            "path": "sentinel/S10W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": -10,
+                "maxx": -10,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10W010": {
+            "path": "sentinel/S10W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": -10,
+                "maxx": 0,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E000": {
+            "path": "sentinel/S10E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": -10,
+                "maxx": 10,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E010": {
+            "path": "sentinel/S10E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": -10,
+                "maxx": 20,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E020": {
+            "path": "sentinel/S10E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": -10,
+                "maxx": 30,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E030": {
+            "path": "sentinel/S10E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": -10,
+                "maxx": 40,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E040": {
+            "path": "sentinel/S10E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": -10,
+                "maxx": 50,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E050": {
+            "path": "sentinel/S10E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": -10,
+                "maxx": 60,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E060": {
+            "path": "sentinel/S10E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": -10,
+                "maxx": 70,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E070": {
+            "path": "sentinel/S10E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": -10,
+                "maxx": 80,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E080": {
+            "path": "sentinel/S10E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": -10,
+                "maxx": 90,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E090": {
+            "path": "sentinel/S10E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": -10,
+                "maxx": 100,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E100": {
+            "path": "sentinel/S10E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": -10,
+                "maxx": 110,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E110": {
+            "path": "sentinel/S10E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": -10,
+                "maxx": 120,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E120": {
+            "path": "sentinel/S10E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": -10,
+                "maxx": 130,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E130": {
+            "path": "sentinel/S10E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": -10,
+                "maxx": 140,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E140": {
+            "path": "sentinel/S10E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": -10,
+                "maxx": 150,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E150": {
+            "path": "sentinel/S10E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": -10,
+                "maxx": 160,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E160": {
+            "path": "sentinel/S10E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": -10,
+                "maxx": 170,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "S10E170": {
+            "path": "sentinel/S10E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": -10,
+                "maxx": 180,
+                "maxy": 0
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W180": {
+            "path": "sentinel/N00W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": 0,
+                "maxx": -170,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W170": {
+            "path": "sentinel/N00W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": 0,
+                "maxx": -160,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W160": {
+            "path": "sentinel/N00W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": 0,
+                "maxx": -150,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W150": {
+            "path": "sentinel/N00W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": 0,
+                "maxx": -140,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W140": {
+            "path": "sentinel/N00W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": 0,
+                "maxx": -130,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W130": {
+            "path": "sentinel/N00W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": 0,
+                "maxx": -120,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W120": {
+            "path": "sentinel/N00W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": 0,
+                "maxx": -110,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W110": {
+            "path": "sentinel/N00W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": 0,
+                "maxx": -100,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W100": {
+            "path": "sentinel/N00W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": 0,
+                "maxx": -90,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W090": {
+            "path": "sentinel/N00W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": 0,
+                "maxx": -80,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W080": {
+            "path": "sentinel/N00W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": 0,
+                "maxx": -70,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W070": {
+            "path": "sentinel/N00W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": 0,
+                "maxx": -60,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W060": {
+            "path": "sentinel/N00W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": 0,
+                "maxx": -50,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W050": {
+            "path": "sentinel/N00W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": 0,
+                "maxx": -40,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W040": {
+            "path": "sentinel/N00W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": 0,
+                "maxx": -30,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W030": {
+            "path": "sentinel/N00W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": 0,
+                "maxx": -20,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W020": {
+            "path": "sentinel/N00W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": 0,
+                "maxx": -10,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00W010": {
+            "path": "sentinel/N00W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": 0,
+                "maxx": 0,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E000": {
+            "path": "sentinel/N00E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": 0,
+                "maxx": 10,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E010": {
+            "path": "sentinel/N00E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": 0,
+                "maxx": 20,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E020": {
+            "path": "sentinel/N00E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": 0,
+                "maxx": 30,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E030": {
+            "path": "sentinel/N00E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": 0,
+                "maxx": 40,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E040": {
+            "path": "sentinel/N00E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": 0,
+                "maxx": 50,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E050": {
+            "path": "sentinel/N00E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": 0,
+                "maxx": 60,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E060": {
+            "path": "sentinel/N00E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": 0,
+                "maxx": 70,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E070": {
+            "path": "sentinel/N00E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": 0,
+                "maxx": 80,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E080": {
+            "path": "sentinel/N00E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": 0,
+                "maxx": 90,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E090": {
+            "path": "sentinel/N00E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": 0,
+                "maxx": 100,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E100": {
+            "path": "sentinel/N00E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": 0,
+                "maxx": 110,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E110": {
+            "path": "sentinel/N00E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": 0,
+                "maxx": 120,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E120": {
+            "path": "sentinel/N00E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": 0,
+                "maxx": 130,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E130": {
+            "path": "sentinel/N00E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": 0,
+                "maxx": 140,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E140": {
+            "path": "sentinel/N00E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": 0,
+                "maxx": 150,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E150": {
+            "path": "sentinel/N00E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": 0,
+                "maxx": 160,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E160": {
+            "path": "sentinel/N00E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": 0,
+                "maxx": 170,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N00E170": {
+            "path": "sentinel/N00E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": 0,
+                "maxx": 180,
+                "maxy": 10
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W180": {
+            "path": "sentinel/N10W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": 10,
+                "maxx": -170,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W170": {
+            "path": "sentinel/N10W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": 10,
+                "maxx": -160,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W160": {
+            "path": "sentinel/N10W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": 10,
+                "maxx": -150,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W150": {
+            "path": "sentinel/N10W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": 10,
+                "maxx": -140,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W140": {
+            "path": "sentinel/N10W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": 10,
+                "maxx": -130,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W130": {
+            "path": "sentinel/N10W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": 10,
+                "maxx": -120,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W120": {
+            "path": "sentinel/N10W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": 10,
+                "maxx": -110,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W110": {
+            "path": "sentinel/N10W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": 10,
+                "maxx": -100,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W100": {
+            "path": "sentinel/N10W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": 10,
+                "maxx": -90,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W090": {
+            "path": "sentinel/N10W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": 10,
+                "maxx": -80,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W080": {
+            "path": "sentinel/N10W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": 10,
+                "maxx": -70,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W070": {
+            "path": "sentinel/N10W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": 10,
+                "maxx": -60,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W060": {
+            "path": "sentinel/N10W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": 10,
+                "maxx": -50,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W050": {
+            "path": "sentinel/N10W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": 10,
+                "maxx": -40,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W040": {
+            "path": "sentinel/N10W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": 10,
+                "maxx": -30,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W030": {
+            "path": "sentinel/N10W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": 10,
+                "maxx": -20,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W020": {
+            "path": "sentinel/N10W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": 10,
+                "maxx": -10,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10W010": {
+            "path": "sentinel/N10W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": 10,
+                "maxx": 0,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E000": {
+            "path": "sentinel/N10E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": 10,
+                "maxx": 10,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E010": {
+            "path": "sentinel/N10E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": 10,
+                "maxx": 20,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E020": {
+            "path": "sentinel/N10E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": 10,
+                "maxx": 30,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E030": {
+            "path": "sentinel/N10E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": 10,
+                "maxx": 40,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E040": {
+            "path": "sentinel/N10E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": 10,
+                "maxx": 50,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E050": {
+            "path": "sentinel/N10E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": 10,
+                "maxx": 60,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E060": {
+            "path": "sentinel/N10E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": 10,
+                "maxx": 70,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E070": {
+            "path": "sentinel/N10E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": 10,
+                "maxx": 80,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E080": {
+            "path": "sentinel/N10E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": 10,
+                "maxx": 90,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E090": {
+            "path": "sentinel/N10E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": 10,
+                "maxx": 100,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E100": {
+            "path": "sentinel/N10E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": 10,
+                "maxx": 110,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E110": {
+            "path": "sentinel/N10E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": 10,
+                "maxx": 120,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E120": {
+            "path": "sentinel/N10E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": 10,
+                "maxx": 130,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E130": {
+            "path": "sentinel/N10E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": 10,
+                "maxx": 140,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E140": {
+            "path": "sentinel/N10E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": 10,
+                "maxx": 150,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E150": {
+            "path": "sentinel/N10E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": 10,
+                "maxx": 160,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E160": {
+            "path": "sentinel/N10E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": 10,
+                "maxx": 170,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N10E170": {
+            "path": "sentinel/N10E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": 10,
+                "maxx": 180,
+                "maxy": 20
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W180": {
+            "path": "sentinel/N20W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": 20,
+                "maxx": -170,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W170": {
+            "path": "sentinel/N20W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": 20,
+                "maxx": -160,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W160": {
+            "path": "sentinel/N20W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": 20,
+                "maxx": -150,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W150": {
+            "path": "sentinel/N20W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": 20,
+                "maxx": -140,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W140": {
+            "path": "sentinel/N20W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": 20,
+                "maxx": -130,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W130": {
+            "path": "sentinel/N20W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": 20,
+                "maxx": -120,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W120": {
+            "path": "sentinel/N20W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": 20,
+                "maxx": -110,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W110": {
+            "path": "sentinel/N20W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": 20,
+                "maxx": -100,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W100": {
+            "path": "sentinel/N20W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": 20,
+                "maxx": -90,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W090": {
+            "path": "sentinel/N20W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": 20,
+                "maxx": -80,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W080": {
+            "path": "sentinel/N20W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": 20,
+                "maxx": -70,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W070": {
+            "path": "sentinel/N20W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": 20,
+                "maxx": -60,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W060": {
+            "path": "sentinel/N20W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": 20,
+                "maxx": -50,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W050": {
+            "path": "sentinel/N20W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": 20,
+                "maxx": -40,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W040": {
+            "path": "sentinel/N20W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": 20,
+                "maxx": -30,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W030": {
+            "path": "sentinel/N20W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": 20,
+                "maxx": -20,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W020": {
+            "path": "sentinel/N20W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": 20,
+                "maxx": -10,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20W010": {
+            "path": "sentinel/N20W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": 20,
+                "maxx": 0,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E000": {
+            "path": "sentinel/N20E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": 20,
+                "maxx": 10,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E010": {
+            "path": "sentinel/N20E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": 20,
+                "maxx": 20,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E020": {
+            "path": "sentinel/N20E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": 20,
+                "maxx": 30,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E030": {
+            "path": "sentinel/N20E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": 20,
+                "maxx": 40,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E040": {
+            "path": "sentinel/N20E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": 20,
+                "maxx": 50,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E050": {
+            "path": "sentinel/N20E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": 20,
+                "maxx": 60,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E060": {
+            "path": "sentinel/N20E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": 20,
+                "maxx": 70,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E070": {
+            "path": "sentinel/N20E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": 20,
+                "maxx": 80,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E080": {
+            "path": "sentinel/N20E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": 20,
+                "maxx": 90,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E090": {
+            "path": "sentinel/N20E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": 20,
+                "maxx": 100,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E100": {
+            "path": "sentinel/N20E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": 20,
+                "maxx": 110,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E110": {
+            "path": "sentinel/N20E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": 20,
+                "maxx": 120,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E120": {
+            "path": "sentinel/N20E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": 20,
+                "maxx": 130,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E130": {
+            "path": "sentinel/N20E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": 20,
+                "maxx": 140,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E140": {
+            "path": "sentinel/N20E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": 20,
+                "maxx": 150,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E150": {
+            "path": "sentinel/N20E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": 20,
+                "maxx": 160,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E160": {
+            "path": "sentinel/N20E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": 20,
+                "maxx": 170,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N20E170": {
+            "path": "sentinel/N20E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": 20,
+                "maxx": 180,
+                "maxy": 30
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W180": {
+            "path": "sentinel/N30W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": 30,
+                "maxx": -170,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W170": {
+            "path": "sentinel/N30W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": 30,
+                "maxx": -160,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W160": {
+            "path": "sentinel/N30W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": 30,
+                "maxx": -150,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W150": {
+            "path": "sentinel/N30W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": 30,
+                "maxx": -140,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W140": {
+            "path": "sentinel/N30W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": 30,
+                "maxx": -130,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W130": {
+            "path": "sentinel/N30W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": 30,
+                "maxx": -120,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W120": {
+            "path": "sentinel/N30W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": 30,
+                "maxx": -110,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W110": {
+            "path": "sentinel/N30W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": 30,
+                "maxx": -100,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W100": {
+            "path": "sentinel/N30W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": 30,
+                "maxx": -90,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W090": {
+            "path": "sentinel/N30W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": 30,
+                "maxx": -80,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W080": {
+            "path": "sentinel/N30W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": 30,
+                "maxx": -70,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W070": {
+            "path": "sentinel/N30W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": 30,
+                "maxx": -60,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W060": {
+            "path": "sentinel/N30W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": 30,
+                "maxx": -50,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W050": {
+            "path": "sentinel/N30W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": 30,
+                "maxx": -40,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W040": {
+            "path": "sentinel/N30W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": 30,
+                "maxx": -30,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W030": {
+            "path": "sentinel/N30W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": 30,
+                "maxx": -20,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W020": {
+            "path": "sentinel/N30W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": 30,
+                "maxx": -10,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30W010": {
+            "path": "sentinel/N30W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": 30,
+                "maxx": 0,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E000": {
+            "path": "sentinel/N30E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": 30,
+                "maxx": 10,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E010": {
+            "path": "sentinel/N30E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": 30,
+                "maxx": 20,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E020": {
+            "path": "sentinel/N30E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": 30,
+                "maxx": 30,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E030": {
+            "path": "sentinel/N30E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": 30,
+                "maxx": 40,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E040": {
+            "path": "sentinel/N30E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": 30,
+                "maxx": 50,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E050": {
+            "path": "sentinel/N30E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": 30,
+                "maxx": 60,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E060": {
+            "path": "sentinel/N30E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": 30,
+                "maxx": 70,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E070": {
+            "path": "sentinel/N30E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": 30,
+                "maxx": 80,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E080": {
+            "path": "sentinel/N30E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": 30,
+                "maxx": 90,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E090": {
+            "path": "sentinel/N30E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": 30,
+                "maxx": 100,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E100": {
+            "path": "sentinel/N30E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": 30,
+                "maxx": 110,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E110": {
+            "path": "sentinel/N30E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": 30,
+                "maxx": 120,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E120": {
+            "path": "sentinel/N30E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": 30,
+                "maxx": 130,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E130": {
+            "path": "sentinel/N30E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": 30,
+                "maxx": 140,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E140": {
+            "path": "sentinel/N30E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": 30,
+                "maxx": 150,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E150": {
+            "path": "sentinel/N30E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": 30,
+                "maxx": 160,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E160": {
+            "path": "sentinel/N30E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": 30,
+                "maxx": 170,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N30E170": {
+            "path": "sentinel/N30E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": 30,
+                "maxx": 180,
+                "maxy": 40
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W180": {
+            "path": "sentinel/N40W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": 40,
+                "maxx": -170,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W170": {
+            "path": "sentinel/N40W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": 40,
+                "maxx": -160,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W160": {
+            "path": "sentinel/N40W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": 40,
+                "maxx": -150,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W150": {
+            "path": "sentinel/N40W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": 40,
+                "maxx": -140,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W140": {
+            "path": "sentinel/N40W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": 40,
+                "maxx": -130,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W130": {
+            "path": "sentinel/N40W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": 40,
+                "maxx": -120,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W120": {
+            "path": "sentinel/N40W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": 40,
+                "maxx": -110,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W110": {
+            "path": "sentinel/N40W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": 40,
+                "maxx": -100,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W100": {
+            "path": "sentinel/N40W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": 40,
+                "maxx": -90,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W090": {
+            "path": "sentinel/N40W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": 40,
+                "maxx": -80,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W080": {
+            "path": "sentinel/N40W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": 40,
+                "maxx": -70,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W070": {
+            "path": "sentinel/N40W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": 40,
+                "maxx": -60,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W060": {
+            "path": "sentinel/N40W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": 40,
+                "maxx": -50,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W050": {
+            "path": "sentinel/N40W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": 40,
+                "maxx": -40,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W040": {
+            "path": "sentinel/N40W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": 40,
+                "maxx": -30,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W030": {
+            "path": "sentinel/N40W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": 40,
+                "maxx": -20,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W020": {
+            "path": "sentinel/N40W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": 40,
+                "maxx": -10,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40W010": {
+            "path": "sentinel/N40W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": 40,
+                "maxx": 0,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E000": {
+            "path": "sentinel/N40E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": 40,
+                "maxx": 10,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E010": {
+            "path": "sentinel/N40E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": 40,
+                "maxx": 20,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E020": {
+            "path": "sentinel/N40E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": 40,
+                "maxx": 30,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E030": {
+            "path": "sentinel/N40E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": 40,
+                "maxx": 40,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E040": {
+            "path": "sentinel/N40E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": 40,
+                "maxx": 50,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E050": {
+            "path": "sentinel/N40E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": 40,
+                "maxx": 60,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E060": {
+            "path": "sentinel/N40E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": 40,
+                "maxx": 70,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E070": {
+            "path": "sentinel/N40E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": 40,
+                "maxx": 80,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E080": {
+            "path": "sentinel/N40E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": 40,
+                "maxx": 90,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E090": {
+            "path": "sentinel/N40E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": 40,
+                "maxx": 100,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E100": {
+            "path": "sentinel/N40E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": 40,
+                "maxx": 110,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E110": {
+            "path": "sentinel/N40E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": 40,
+                "maxx": 120,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E120": {
+            "path": "sentinel/N40E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": 40,
+                "maxx": 130,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E130": {
+            "path": "sentinel/N40E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": 40,
+                "maxx": 140,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E140": {
+            "path": "sentinel/N40E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": 40,
+                "maxx": 150,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E150": {
+            "path": "sentinel/N40E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": 40,
+                "maxx": 160,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E160": {
+            "path": "sentinel/N40E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": 40,
+                "maxx": 170,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N40E170": {
+            "path": "sentinel/N40E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": 40,
+                "maxx": 180,
+                "maxy": 50
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W180": {
+            "path": "sentinel/N50W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": 50,
+                "maxx": -170,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W170": {
+            "path": "sentinel/N50W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": 50,
+                "maxx": -160,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W160": {
+            "path": "sentinel/N50W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": 50,
+                "maxx": -150,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W150": {
+            "path": "sentinel/N50W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": 50,
+                "maxx": -140,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W140": {
+            "path": "sentinel/N50W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": 50,
+                "maxx": -130,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W130": {
+            "path": "sentinel/N50W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": 50,
+                "maxx": -120,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W120": {
+            "path": "sentinel/N50W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": 50,
+                "maxx": -110,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W110": {
+            "path": "sentinel/N50W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": 50,
+                "maxx": -100,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W100": {
+            "path": "sentinel/N50W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": 50,
+                "maxx": -90,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W090": {
+            "path": "sentinel/N50W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": 50,
+                "maxx": -80,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W080": {
+            "path": "sentinel/N50W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": 50,
+                "maxx": -70,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W070": {
+            "path": "sentinel/N50W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": 50,
+                "maxx": -60,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W060": {
+            "path": "sentinel/N50W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": 50,
+                "maxx": -50,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W050": {
+            "path": "sentinel/N50W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": 50,
+                "maxx": -40,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W040": {
+            "path": "sentinel/N50W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": 50,
+                "maxx": -30,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W030": {
+            "path": "sentinel/N50W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": 50,
+                "maxx": -20,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W020": {
+            "path": "sentinel/N50W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": 50,
+                "maxx": -10,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50W010": {
+            "path": "sentinel/N50W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": 50,
+                "maxx": 0,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E000": {
+            "path": "sentinel/N50E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": 50,
+                "maxx": 10,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E010": {
+            "path": "sentinel/N50E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": 50,
+                "maxx": 20,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E020": {
+            "path": "sentinel/N50E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": 50,
+                "maxx": 30,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E030": {
+            "path": "sentinel/N50E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": 50,
+                "maxx": 40,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E040": {
+            "path": "sentinel/N50E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": 50,
+                "maxx": 50,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E050": {
+            "path": "sentinel/N50E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": 50,
+                "maxx": 60,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E060": {
+            "path": "sentinel/N50E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": 50,
+                "maxx": 70,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E070": {
+            "path": "sentinel/N50E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": 50,
+                "maxx": 80,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E080": {
+            "path": "sentinel/N50E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": 50,
+                "maxx": 90,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E090": {
+            "path": "sentinel/N50E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": 50,
+                "maxx": 100,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E100": {
+            "path": "sentinel/N50E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": 50,
+                "maxx": 110,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E110": {
+            "path": "sentinel/N50E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": 50,
+                "maxx": 120,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E120": {
+            "path": "sentinel/N50E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": 50,
+                "maxx": 130,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E130": {
+            "path": "sentinel/N50E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": 50,
+                "maxx": 140,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E140": {
+            "path": "sentinel/N50E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": 50,
+                "maxx": 150,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E150": {
+            "path": "sentinel/N50E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": 50,
+                "maxx": 160,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E160": {
+            "path": "sentinel/N50E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": 50,
+                "maxx": 170,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N50E170": {
+            "path": "sentinel/N50E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": 50,
+                "maxx": 180,
+                "maxy": 60
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W180": {
+            "path": "sentinel/N60W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": 60,
+                "maxx": -170,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W170": {
+            "path": "sentinel/N60W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": 60,
+                "maxx": -160,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W160": {
+            "path": "sentinel/N60W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": 60,
+                "maxx": -150,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W150": {
+            "path": "sentinel/N60W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": 60,
+                "maxx": -140,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W140": {
+            "path": "sentinel/N60W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": 60,
+                "maxx": -130,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W130": {
+            "path": "sentinel/N60W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": 60,
+                "maxx": -120,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W120": {
+            "path": "sentinel/N60W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": 60,
+                "maxx": -110,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W110": {
+            "path": "sentinel/N60W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": 60,
+                "maxx": -100,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W100": {
+            "path": "sentinel/N60W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": 60,
+                "maxx": -90,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W090": {
+            "path": "sentinel/N60W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": 60,
+                "maxx": -80,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W080": {
+            "path": "sentinel/N60W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": 60,
+                "maxx": -70,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W070": {
+            "path": "sentinel/N60W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": 60,
+                "maxx": -60,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W060": {
+            "path": "sentinel/N60W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": 60,
+                "maxx": -50,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W050": {
+            "path": "sentinel/N60W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": 60,
+                "maxx": -40,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W040": {
+            "path": "sentinel/N60W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": 60,
+                "maxx": -30,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W030": {
+            "path": "sentinel/N60W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": 60,
+                "maxx": -20,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W020": {
+            "path": "sentinel/N60W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": 60,
+                "maxx": -10,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60W010": {
+            "path": "sentinel/N60W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": 60,
+                "maxx": 0,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E000": {
+            "path": "sentinel/N60E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": 60,
+                "maxx": 10,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E010": {
+            "path": "sentinel/N60E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": 60,
+                "maxx": 20,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E020": {
+            "path": "sentinel/N60E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": 60,
+                "maxx": 30,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E030": {
+            "path": "sentinel/N60E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": 60,
+                "maxx": 40,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E040": {
+            "path": "sentinel/N60E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": 60,
+                "maxx": 50,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E050": {
+            "path": "sentinel/N60E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": 60,
+                "maxx": 60,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E060": {
+            "path": "sentinel/N60E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": 60,
+                "maxx": 70,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E070": {
+            "path": "sentinel/N60E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": 60,
+                "maxx": 80,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E080": {
+            "path": "sentinel/N60E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": 60,
+                "maxx": 90,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E090": {
+            "path": "sentinel/N60E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": 60,
+                "maxx": 100,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E100": {
+            "path": "sentinel/N60E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": 60,
+                "maxx": 110,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E110": {
+            "path": "sentinel/N60E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": 60,
+                "maxx": 120,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E120": {
+            "path": "sentinel/N60E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": 60,
+                "maxx": 130,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E130": {
+            "path": "sentinel/N60E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": 60,
+                "maxx": 140,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E140": {
+            "path": "sentinel/N60E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": 60,
+                "maxx": 150,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E150": {
+            "path": "sentinel/N60E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": 60,
+                "maxx": 160,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E160": {
+            "path": "sentinel/N60E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": 60,
+                "maxx": 170,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N60E170": {
+            "path": "sentinel/N60E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": 60,
+                "maxx": 180,
+                "maxy": 70
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W180": {
+            "path": "sentinel/N70W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": 70,
+                "maxx": -170,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W170": {
+            "path": "sentinel/N70W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": 70,
+                "maxx": -160,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W160": {
+            "path": "sentinel/N70W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": 70,
+                "maxx": -150,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W150": {
+            "path": "sentinel/N70W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": 70,
+                "maxx": -140,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W140": {
+            "path": "sentinel/N70W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": 70,
+                "maxx": -130,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W130": {
+            "path": "sentinel/N70W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": 70,
+                "maxx": -120,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W120": {
+            "path": "sentinel/N70W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": 70,
+                "maxx": -110,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W110": {
+            "path": "sentinel/N70W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": 70,
+                "maxx": -100,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W100": {
+            "path": "sentinel/N70W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": 70,
+                "maxx": -90,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W090": {
+            "path": "sentinel/N70W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": 70,
+                "maxx": -80,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W080": {
+            "path": "sentinel/N70W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": 70,
+                "maxx": -70,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W070": {
+            "path": "sentinel/N70W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": 70,
+                "maxx": -60,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W060": {
+            "path": "sentinel/N70W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": 70,
+                "maxx": -50,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W050": {
+            "path": "sentinel/N70W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": 70,
+                "maxx": -40,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W040": {
+            "path": "sentinel/N70W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": 70,
+                "maxx": -30,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W030": {
+            "path": "sentinel/N70W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": 70,
+                "maxx": -20,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W020": {
+            "path": "sentinel/N70W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": 70,
+                "maxx": -10,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70W010": {
+            "path": "sentinel/N70W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": 70,
+                "maxx": 0,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E000": {
+            "path": "sentinel/N70E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": 70,
+                "maxx": 10,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E010": {
+            "path": "sentinel/N70E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": 70,
+                "maxx": 20,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E020": {
+            "path": "sentinel/N70E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": 70,
+                "maxx": 30,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E030": {
+            "path": "sentinel/N70E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": 70,
+                "maxx": 40,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E040": {
+            "path": "sentinel/N70E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": 70,
+                "maxx": 50,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E050": {
+            "path": "sentinel/N70E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": 70,
+                "maxx": 60,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E060": {
+            "path": "sentinel/N70E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": 70,
+                "maxx": 70,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E070": {
+            "path": "sentinel/N70E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": 70,
+                "maxx": 80,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E080": {
+            "path": "sentinel/N70E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": 70,
+                "maxx": 90,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E090": {
+            "path": "sentinel/N70E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": 70,
+                "maxx": 100,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E100": {
+            "path": "sentinel/N70E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": 70,
+                "maxx": 110,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E110": {
+            "path": "sentinel/N70E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": 70,
+                "maxx": 120,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E120": {
+            "path": "sentinel/N70E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": 70,
+                "maxx": 130,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E130": {
+            "path": "sentinel/N70E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": 70,
+                "maxx": 140,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E140": {
+            "path": "sentinel/N70E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": 70,
+                "maxx": 150,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E150": {
+            "path": "sentinel/N70E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": 70,
+                "maxx": 160,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E160": {
+            "path": "sentinel/N70E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": 70,
+                "maxx": 170,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N70E170": {
+            "path": "sentinel/N70E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": 70,
+                "maxx": 180,
+                "maxy": 80
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W180": {
+            "path": "sentinel/N80W180.tif",
+            "bounds": {
+                "minx": -180,
+                "miny": 80,
+                "maxx": -170,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W170": {
+            "path": "sentinel/N80W170.tif",
+            "bounds": {
+                "minx": -170,
+                "miny": 80,
+                "maxx": -160,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W160": {
+            "path": "sentinel/N80W160.tif",
+            "bounds": {
+                "minx": -160,
+                "miny": 80,
+                "maxx": -150,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W150": {
+            "path": "sentinel/N80W150.tif",
+            "bounds": {
+                "minx": -150,
+                "miny": 80,
+                "maxx": -140,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W140": {
+            "path": "sentinel/N80W140.tif",
+            "bounds": {
+                "minx": -140,
+                "miny": 80,
+                "maxx": -130,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W130": {
+            "path": "sentinel/N80W130.tif",
+            "bounds": {
+                "minx": -130,
+                "miny": 80,
+                "maxx": -120,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W120": {
+            "path": "sentinel/N80W120.tif",
+            "bounds": {
+                "minx": -120,
+                "miny": 80,
+                "maxx": -110,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W110": {
+            "path": "sentinel/N80W110.tif",
+            "bounds": {
+                "minx": -110,
+                "miny": 80,
+                "maxx": -100,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W100": {
+            "path": "sentinel/N80W100.tif",
+            "bounds": {
+                "minx": -100,
+                "miny": 80,
+                "maxx": -90,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W090": {
+            "path": "sentinel/N80W090.tif",
+            "bounds": {
+                "minx": -90,
+                "miny": 80,
+                "maxx": -80,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W080": {
+            "path": "sentinel/N80W080.tif",
+            "bounds": {
+                "minx": -80,
+                "miny": 80,
+                "maxx": -70,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W070": {
+            "path": "sentinel/N80W070.tif",
+            "bounds": {
+                "minx": -70,
+                "miny": 80,
+                "maxx": -60,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W060": {
+            "path": "sentinel/N80W060.tif",
+            "bounds": {
+                "minx": -60,
+                "miny": 80,
+                "maxx": -50,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W050": {
+            "path": "sentinel/N80W050.tif",
+            "bounds": {
+                "minx": -50,
+                "miny": 80,
+                "maxx": -40,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W040": {
+            "path": "sentinel/N80W040.tif",
+            "bounds": {
+                "minx": -40,
+                "miny": 80,
+                "maxx": -30,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W030": {
+            "path": "sentinel/N80W030.tif",
+            "bounds": {
+                "minx": -30,
+                "miny": 80,
+                "maxx": -20,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W020": {
+            "path": "sentinel/N80W020.tif",
+            "bounds": {
+                "minx": -20,
+                "miny": 80,
+                "maxx": -10,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80W010": {
+            "path": "sentinel/N80W010.tif",
+            "bounds": {
+                "minx": -10,
+                "miny": 80,
+                "maxx": 0,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E000": {
+            "path": "sentinel/N80E000.tif",
+            "bounds": {
+                "minx": 0,
+                "miny": 80,
+                "maxx": 10,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E010": {
+            "path": "sentinel/N80E010.tif",
+            "bounds": {
+                "minx": 10,
+                "miny": 80,
+                "maxx": 20,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E020": {
+            "path": "sentinel/N80E020.tif",
+            "bounds": {
+                "minx": 20,
+                "miny": 80,
+                "maxx": 30,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E030": {
+            "path": "sentinel/N80E030.tif",
+            "bounds": {
+                "minx": 30,
+                "miny": 80,
+                "maxx": 40,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E040": {
+            "path": "sentinel/N80E040.tif",
+            "bounds": {
+                "minx": 40,
+                "miny": 80,
+                "maxx": 50,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E050": {
+            "path": "sentinel/N80E050.tif",
+            "bounds": {
+                "minx": 50,
+                "miny": 80,
+                "maxx": 60,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E060": {
+            "path": "sentinel/N80E060.tif",
+            "bounds": {
+                "minx": 60,
+                "miny": 80,
+                "maxx": 70,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E070": {
+            "path": "sentinel/N80E070.tif",
+            "bounds": {
+                "minx": 70,
+                "miny": 80,
+                "maxx": 80,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E080": {
+            "path": "sentinel/N80E080.tif",
+            "bounds": {
+                "minx": 80,
+                "miny": 80,
+                "maxx": 90,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E090": {
+            "path": "sentinel/N80E090.tif",
+            "bounds": {
+                "minx": 90,
+                "miny": 80,
+                "maxx": 100,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E100": {
+            "path": "sentinel/N80E100.tif",
+            "bounds": {
+                "minx": 100,
+                "miny": 80,
+                "maxx": 110,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E110": {
+            "path": "sentinel/N80E110.tif",
+            "bounds": {
+                "minx": 110,
+                "miny": 80,
+                "maxx": 120,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E120": {
+            "path": "sentinel/N80E120.tif",
+            "bounds": {
+                "minx": 120,
+                "miny": 80,
+                "maxx": 130,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E130": {
+            "path": "sentinel/N80E130.tif",
+            "bounds": {
+                "minx": 130,
+                "miny": 80,
+                "maxx": 140,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E140": {
+            "path": "sentinel/N80E140.tif",
+            "bounds": {
+                "minx": 140,
+                "miny": 80,
+                "maxx": 150,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E150": {
+            "path": "sentinel/N80E150.tif",
+            "bounds": {
+                "minx": 150,
+                "miny": 80,
+                "maxx": 160,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E160": {
+            "path": "sentinel/N80E160.tif",
+            "bounds": {
+                "minx": 160,
+                "miny": 80,
+                "maxx": 170,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        },
+        "N80E170": {
+            "path": "sentinel/N80E170.tif",
+            "bounds": {
+                "minx": 170,
+                "miny": 80,
+                "maxx": 180,
+                "maxy": 90
+            },
+            "last_updated": "2024-01-16",
+            "file_size_gb": 2.3
+        }
+    }
+}
