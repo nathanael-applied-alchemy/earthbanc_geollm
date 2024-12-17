@@ -20,6 +20,7 @@ from geoalchemy2 import Geometry
 from shapely.geometry import shape
 from datetime import datetime
 from app.routers.polygons import router as polygon_router
+from app.routers.satellite import router as satellite_router
 # Load environment variables from the project's .env
 from pathlib import Path
 
@@ -79,6 +80,7 @@ async def add_trailing_slash(request: Request, call_next):
 
 # Include routers
 app.include_router(polygon_router, prefix="/api/polygons", tags=["polygons"])
+app.include_router(satellite_router, prefix="/api/satellite", tags=["satellite"])
 
 # app.include_router(demo_table_router, prefix="/api/v1")
 

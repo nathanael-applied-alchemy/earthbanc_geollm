@@ -1,5 +1,7 @@
-// frontend/src/components/AnalysisResults.tsx
-'use client';
+import { useState } from 'react';
+import SatelliteImages from '@/components/SatelliteImages';
+
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8007';
 
 interface AnalysisResultsProps {
   polygonId: number;
@@ -22,9 +24,25 @@ interface AnalysisResultsProps {
     sentinel_data?: any;
     vision_results?: any;
   };
+  geojson: string;
 }
 
-export default function AnalysisResults({ polygonId, results }: AnalysisResultsProps) {
+export default function AnalysisResults({ polygonId, geojson, results }: AnalysisResultsProps) {
+  const [copySuccess, setCopySuccess] = useState('');
+  const [satelliteError, setSatelliteError] = useState('');
+
+  const handleCopyToClipboard = () => {
+    navigator.clipboard.writeText(JSON.stringify(results.geometry, null, 2))
+      .then(() => {
+        setCopySuccess('GeoJSON copied to clipboard!');
+        setTimeout(() => setCopySuccess(''), 2000);
+      })
+      .catch(err => {
+        console.error('Failed to copy: ', err);
+        setCopySuccess('Failed to copy GeoJSON');
+      });
+  };
+
   if (!results) {
     return (
       <div className="p-6 bg-white rounded-lg shadow">
@@ -41,7 +59,16 @@ export default function AnalysisResults({ polygonId, results }: AnalysisResultsP
       <div className="space-y-2 px-6">
         <div className="flex justify-between items-center">
           <h3 className="text-lg font-semibold">Polygon Information</h3>
-          <div className="space-x-2">
+          <div className="flex items-center space-x-2">
+            {copySuccess && <span className="text-green-500">{copySuccess}</span>}
+            <button
+              type="button"
+              onClick={handleCopyToClipboard}
+              className="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600"
+            >
+              Copy GeoJSON
+            </button>
+
             <a
               href={`/api/polygons/${polygonId}/export/kml`}
               download={`polygon-${polygonId}.kml`}
@@ -67,10 +94,12 @@ export default function AnalysisResults({ polygonId, results }: AnalysisResultsP
         </div>
       </div>
 
-      {/* Analysis Results */}
+      {/* Analysis Results with Satellite Images */}
       {results.cropland_data && (
         <div className="space-y-2 px-6">
-          <h3 className="text-lg font-semibold analysis-results">Analysis Results</h3>
+          <div className="flex justify-between items-center">
+            <h3 className="text-lg font-semibold analysis-results">Analysis Results</h3>
+          </div>
           <div className="p-4 bg-gray-50 rounded">
             <div className="grid grid-cols-2 gap-4">
               <div>
@@ -116,17 +145,17 @@ export default function AnalysisResults({ polygonId, results }: AnalysisResultsP
         </div>
       )}
 
-      {/* Satellite Images */}
-      <div className="space-y-2 px-6">
-        <h3 className="text-lg font-semibold satellite-imagery">Satellite Imagery</h3>
-        <div className="grid grid-cols-2 gap-4">
-          <div className="aspect-w-16 aspect-h-9 bg-gray-100 rounded flex items-center justify-center">
-            <p className="text-gray-500">Recent Imagery</p>
+      {/* Satellite Images Section */}
+      <div className="px-6">
+        <SatelliteImages 
+          geojson={results.geometry}
+          onError={(error) => setSatelliteError(error)}
+        />
+        {satelliteError && (
+          <div className="mt-4 p-4 bg-red-100 text-red-700 rounded">
+            {satelliteError}
           </div>
-          <div className="aspect-w-16 aspect-h-9 bg-gray-100 rounded flex items-center justify-center">
-            <p className="text-gray-500">Historical Imagery</p>
-          </div>
-        </div>
+        )}
       </div>
 
       {/* Raster Preview */}
@@ -135,7 +164,7 @@ export default function AnalysisResults({ polygonId, results }: AnalysisResultsP
           <h3 className="text-lg font-semibold cropland-analysis">Cropland Analysis</h3>
           <div className="relative w-full h-[300px] bg-gray-100 rounded overflow-hidden">
             <img 
-              src={`/api/polygons/${polygonId}/raster-preview`}
+              src={`/api/polygons/${polygonId}/raster-preview/`}
               alt="Cropland Analysis"
               className="object-contain w-full h-full"
               onError={(e) => {

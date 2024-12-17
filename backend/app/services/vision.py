@@ -3,54 +3,99 @@
 from typing import Dict, Any
 import asyncio
 import traceback
+import anthropic
 
-async def analyze(sentinel_data: Dict[str, Any]) -> Dict[str, Any]:
-    """
-    Analyze Sentinel data using computer vision.
-    
-    Args:
-        sentinel_data: Dictionary containing Sentinel analysis results
+
+class VisionService:
+    def __init__(self, anthropic_api_key: str):
+        self.anthropic_api_key = anthropic_api_key
+
+    async def analyze(self, sentinel_data: Dict[str, Any]) -> Dict[str, Any]:
+
+        pass
+
+    async def analyze_land(
+        self,
+        weather_data: Dict,
+        soil_data: Dict,
+        location_data: Dict,
+        image_data: str
+    ) -> Dict:
+        """
+        Analyze land suitability using Claude
+        """
+
+        weather_prompt = ""
+    #     weather_prompt += f"""
+    #     Weather Data:
+    # - Rainfall: {weather_data.get('rainfall_mm')}mm
+    # - Temperature: {weather_data.get('temperature_celsius')}°C
+    # - Wind Speed: {weather_data.get('wind_speed_kph')}kph
+    # """
+
+        soil_prompt = ""
+    #     soil_prompt += f"""
+    # Soil Data:
+    # - pH Level: {soil_data.get('ph')}
+    # - Organic Carbon: {soil_data.get('organic_carbon')}%
+    # - Moisture: {soil_data.get('moisture_percent')}%
+    # """
+
+        location_prompt = ""
         
-    Returns:
-        Dict containing vision analysis results
+    #     location_prompt += f"""
+    # Location:
+    # - Latitude: {location_data.get('latitude')}
+    # - Longitude: {location_data.get('longitude')}
+    # """
+
+        prompt = f"""Given the following image and data about a piece of land, analyze its suitability for agriculture and provide recommendations:
+
+    {weather_prompt}\n
+    {soil_prompt}\n
+    {location_prompt}\n
+
+    Please provide:
+    1. A suitability score from 0-1
+    2. A list of specific recommendations for agricultural use
+    3. Key considerations for crop selection
     """
-    try:
-        # Mock vision analysis results
-        return {
-            "status": "success",
-            "timestamp": sentinel_data.get("timestamp"),
-            "source": "vision-model-v1",
-            "classifications": [
-                {
-                    "label": "forest",
-                    "confidence": 0.85,
-                    "coverage": 0.45
-                },
-                {
-                    "label": "grassland",
-                    "confidence": 0.78,
-                    "coverage": 0.30
-                },
-                {
-                    "label": "agriculture",
-                    "confidence": 0.92,
-                    "coverage": 0.25
-                }
-            ],
-            "metrics": {
-                "vegetation_density": 0.72,
-                "land_use_diversity": 0.68,
-                "urban_density": 0.15
-            },
-            "area_analysis": {
-                "total_area_km2": sentinel_data.get("area_km2"),
-                "forest_area_km2": sentinel_data.get("area_km2") * 0.45,
-                "grassland_area_km2": sentinel_data.get("area_km2") * 0.30,
-                "agriculture_area_km2": sentinel_data.get("area_km2") * 0.25
-            }
-        }
+
+        try:
+
+            # Call Claude API
+            client = anthropic.Anthropic(api_key=self.anthropic_api_key)
+            response = client.messages.create(
+                model="claude-3-sonnet-20240229",
+                max_tokens=2500,
+                messages=[
+                    # {"role": "user", "content": prompt}
+
+                    {"role": "user", "content": [
+                        {
+                            "type": "image",
+                            "source": {
+                            "type": "base64",
+                            "media_type": "image/png",
+                            "data": image_data,
+                            }
+                        },
+                        {"type": "text", "text": prompt}
+                        ]}
+                ]
+            )
             
-    except Exception as e:
-        print(f"Error in vision analysis: {str(e)}")
-        print(traceback.format_exc())
-        raise ValueError(f"Failed to analyze vision data: {str(e)}")
+            # Parse the response and extract key information
+            analysis_text = response.content[0].text
+                        
+            return {
+                "analysis": analysis_text,
+                "recommendations": [rec.strip() for rec in analysis_text.split("\n") if rec.strip().startswith("-")]
+            }
+
+        except Exception as e:
+            print(f"Error in LLM analysis: {str(e)}")
+            return {
+                "analysis": "Error in LLM analysis",
+                "recommendations": []
+            }

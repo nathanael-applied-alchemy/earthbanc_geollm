@@ -373,35 +373,43 @@ async def analyze_polygon(polygon_id: int, db: Session = Depends(get_db)):
         
         # Combine results properly
         total_areas = {
-            'no_data': 0,
+            0: 0,  # Ocean/Water bodies/No data
             1: 0,  # Non-croplands
-            2: 0,  # Irrigated
-            3: 0   # Rainfed
+            2: 0,  # Irrigated croplands
+            3: 0   # Rainfed croplands
         }
-
 
         total_pixels = 0
         valid_pixels = 0
-
         
         for result in results:
             for key, area in result['areas'].items():
-                total_areas[key] += float(area)  # Convert to float
+                # Map 'no_data' to 0 and keep other values as is
+                mapped_key = 0 if key == 'no_data' else key
+                total_areas[mapped_key] += float(area)
             total_pixels += int(result['total_pixels'])
             valid_pixels += int(result['valid_pixels'])            
 
-        # Convert to hectares and calculate percentages
-        total_valid_area = float(sum(v for k, v in total_areas.items() if k != 'no_data'))
+        # Calculate total valid area (excluding ocean/water/no data)
+        total_valid_area = float(sum(v for k, v in total_areas.items() if k != 0))
         
+        # Updated key map with proper descriptions
+        key_map = {
+            0: 'Ocean and Water bodies',
+            1: 'Non-croplands',
+            2: 'Irrigated croplands',
+            3: 'Rainfed croplands'
+        }
+
         formatted_results = {
             'areas': {
-                str(k): {
+                key_map[k]: {
                     'area_m2': float(v),
                     'area_ha': float(v / 10000),
                     'area_km2': float(v / 1000000),
                     'area_acres': float(v / 4046.86),
                     'area_sq_mile': float(v / 2589988.11),
-                    'percentage': float(v / total_valid_area * 100) if k != 'no_data' else 0.0
+                    'percentage': float(v / total_valid_area * 100) if k != 0 else 0.0
                 }
                 for k, v in total_areas.items()
             },
@@ -603,7 +611,7 @@ async def get_raster(polygon_id: int, db: Session = Depends(get_db)):
         logger.exception(f"Error serving raster for polygon {polygon_id}")
         raise HTTPException(status_code=500, detail=str(e))
 
-@router.get("/{polygon_id}/raster-preview")
+@router.get("/{polygon_id}/raster-preview/")
 async def get_raster_preview(polygon_id: int):
     """Get or create and serve the raster preview image"""
     try:

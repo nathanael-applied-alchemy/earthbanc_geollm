@@ -84,7 +84,8 @@ class ProjectController:
                 "-k", "uvicorn.workers.UvicornWorker",
                 "app.main:app",  # Changed to use the correct module path
                 "--bind", f"0.0.0.0:{self.api_port}",
-                "--timeout", "600"
+                "--timeout", "600",
+                "--workers", "4",
             ]
             with open(self.log_file, "a") as log:
                 process = subprocess.Popen(
@@ -102,7 +103,8 @@ class ProjectController:
                 "app.main:app",  # Changed to use the correct module path
                 "--host", "0.0.0.0",
                 "--port", str(self.api_port),
-                "--reload"
+                "--reload",
+                "--workers", "4",
             ]
             subprocess.run(
                 backend_command,

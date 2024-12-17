@@ -1,3 +1,5 @@
+# alembic/env.py
+
 from logging.config import fileConfig
 
 from sqlalchemy import engine_from_config
@@ -81,7 +83,7 @@ def run_migrations_online() -> None:
     logger.debug(f"Tables in metadata: {Base.metadata.tables.keys()}")
     for table in Base.metadata.tables.values():
         logger.debug(f"Columns in {table.name}: {[c.name for c in table.columns]}")
-        
+
     connectable = engine_from_config(
         config.get_section(config.config_ini_section, {}),
         prefix="sqlalchemy.",

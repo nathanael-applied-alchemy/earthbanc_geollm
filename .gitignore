@@ -6,13 +6,23 @@ node_modules
 **/.DS_Store
 **/__pycache__
 
-alembic/versions/*
+**/backend/alembic/versions/*
+
 
 **/populate_demo_data.py
 
 **/data/lgrip30_files/*
 
-**/data/rasters/masked_raster_*.tif
+**/masked_raster_*.tif
 
-**/data/rasters/masked_raster_*.jpg
+**/masked_raster_*.jpg
 
+*secret*
+
+token.pickle
+
+**/saved_pngs/*
+
+**/satellite_images/*
+
+!.gitignore
