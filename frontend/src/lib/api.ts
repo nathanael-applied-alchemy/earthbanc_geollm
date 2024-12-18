@@ -1,5 +1,7 @@
 // frontend/src/lib/api.ts
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8007';
+export const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8007';
+
+console.log('API_BASE:', process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8007');
 
 export interface AreaInfo {
   pixel_count: number;
@@ -35,6 +37,7 @@ export interface AnalysisResult {
   polygon_id: number;
   cropland_analysis: CroplandData;
   metadata: any;
+  message: string;
 }
 
 export const api = {

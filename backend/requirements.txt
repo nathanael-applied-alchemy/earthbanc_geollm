@@ -3,8 +3,10 @@ flake8==6.1.0
 black==24.3.0
 fastapi==0.104.1
 GeoAlchemy2==0.16.0
+earthengine-api==1.4.3
 geojson-pydantic==1.1.2
 shapely==2.0.1
+geemap==0.35.1
 geopandas==0.14.1
 pandas==2.1.0
 uvicorn[standard]==0.24.0

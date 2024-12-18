@@ -3,6 +3,7 @@
     "@types/leaflet": "^1.9.15",
     "leaflet": "^1.9.4",
     "npm": "^11.0.0",
-    "react-leaflet": "^5.0.0"
+    "react-leaflet": "^5.0.0",
+    "react-toastify": "^11.0.1"
   }
 }

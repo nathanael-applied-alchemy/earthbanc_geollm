@@ -24,6 +24,11 @@ from functools import partial
 from shapely.ops import transform
 from pathlib import Path
 
+
+
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
+
 # Dictionary to track task statuses
 task_statuses = {}
 
@@ -110,27 +115,40 @@ def calculate_area_in_sq_km(polygon_geojson):
     
     return area_sq_km
 
-# Initialize Google Drive service
-def get_drive_service():
-    """Get or create Google Drive service."""
-    SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
-    creds = None
-    
-    if os.path.exists('token.pickle'):
-        with open('token.pickle', 'rb') as token:
-            creds = pickle.load(token)
-            
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                'client_secret.json', SCOPES)
-            creds = flow.run_local_server(port=0)
-        with open('token.pickle', 'wb') as token:
-            pickle.dump(creds, token)
 
-    return build('drive', 'v3', credentials=creds)
+def get_drive_service():
+    """Get Google Drive service using service account."""
+    SERVICE_ACCOUNT_FILE = 'ee-nmiksis-7aa1d0ba5ab4.json'
+    SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
+    
+    credentials = service_account.Credentials.from_service_account_file(
+        SERVICE_ACCOUNT_FILE,
+        scopes=SCOPES
+    )
+    
+    return build('drive', 'v3', credentials=credentials)
+
+# # Initialize Google Drive service
+# def get_drive_service():
+#     """Get or create Google Drive service."""
+#     SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
+#     creds = None
+    
+#     if os.path.exists('token.pickle'):
+#         with open('token.pickle', 'rb') as token:
+#             creds = pickle.load(token)
+            
+#     if not creds or not creds.valid:
+#         if creds and creds.expired and creds.refresh_token:
+#             creds.refresh(Request())
+#         else:
+#             flow = InstalledAppFlow.from_client_secrets_file(
+#                 'client_secret.json', SCOPES)
+#             creds = flow.run_local_server(port=0)
+#         with open('token.pickle', 'wb') as token:
+#             pickle.dump(creds, token)
+
+#     return build('drive', 'v3', credentials=creds)
 
 async def find_and_download_file(file_name: str, folder_name: str, max_retries: int = 10) -> str:
     """Find and download a file from Google Drive."""
@@ -226,7 +244,14 @@ async def process_spectral_band(polygon_geojson, band_type):
 
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-        ee.Initialize(project="ee-nmiksis")
+
+        credentials = service_account.Credentials.from_service_account_file(
+            'ee-nmiksis-7aa1d0ba5ab4.json',
+            scopes=['https://www.googleapis.com/auth/earthengine'])
+        ee.Initialize(credentials)
+
+
+        # ee.Initialize(project="ee-nmiksis")
 
         # Convert GeoJSON to Shapely geometry
         polygon = shape(polygon_geojson)

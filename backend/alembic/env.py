@@ -31,11 +31,22 @@ logger.debug("Models imported")
 
 target_metadata = Base.metadata
 
- 
 def include_object(object, name, type_, reflected, compare_to):
     logger.debug(f"Checking object: {name} of type {type_}")
-    if type_ == "table" and name == "spatial_ref_sys":
+    
+    # List of PostGIS-managed tables to exclude
+    postgis_tables = {
+        'spatial_ref_sys',
+        'topology',
+        'layer',
+        'topology_id_seq',
+        # Add any other PostGIS tables you want to exclude
+    }
+    
+    if type_ == "table" and name in postgis_tables:
+        logger.debug(f"Excluding PostGIS table: {name}")
         return False
+        
     return True
 
 # target_metadata = None

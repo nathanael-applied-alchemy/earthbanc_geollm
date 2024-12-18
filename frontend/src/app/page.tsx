@@ -6,6 +6,8 @@ import dynamic from 'next/dynamic';
 import BoundarySearch from '@/components/BoundarySearch';
 import AnalysisResults from '@/components/AnalysisResults';
 import { api } from '@/lib/api';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 // Dynamically import Map component with no SSR
 const MapWithNoSSR = dynamic(
@@ -32,12 +34,6 @@ export default function Home() {
       setLoading(true);
       setError(null);
       
-      console.log('Creating polygon:', {
-        name,
-        geometry,
-        sessionId
-      });
-
       const polygon = await api.createPolygon({
         name,
         geometry,
@@ -48,6 +44,18 @@ export default function Home() {
       
       // Analyze the polygon
       const analysisResult = await api.analyzePolygon(polygon.id);
+
+      // Show analysis result message in toast
+      toast(analysisResult.message, {
+        type: analysisResult.status === 'success' ? 'info' : 'error',
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
+
       setCroplandAnalysis(analysisResult);
       // Get the complete polygon data with analysis results
       const updatedPolygon = await api.getPolygon(polygon.id);
@@ -101,6 +109,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <ToastContainer /> {/* Add this near the top of your JSX */}
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
         <BoundarySearch 
           onAnalysisStart={() => setLoading(true)}

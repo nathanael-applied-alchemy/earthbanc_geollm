@@ -228,52 +228,115 @@ async def analyze_polygon(polygon_id: int, db: Session = Depends(get_db)):
         file_manager = LGRIPFileManager()
         
         # Process tiles with proper masking
+        total_tiles = len(required_tiles)
+        successful_tiles = 0
+        
+        # Process tiles with proper masking
         for tile_id, tile_info in required_tiles:
             try:
                 file_path, status = await file_manager.get_file_path(tile_info)
-                if file_path:
-                    with rasterio.open(file_path) as src:
-                        # Get center latitude for area calculation
-                        bounds = geom.bounds
-                        center_lat = (bounds[1] + bounds[3]) / 2
-                        
-                        # Mask with proper nodata handling
-                        masked_data, out_transform = mask(
-                            src, 
-                            [mapping(geom)], 
-                            crop=True, 
-                            all_touched=True,
-                            nodata=src.nodata
-                        )
-                        
-                        # Store masked dataset for merging
-                        masked_datasets.append({
-                            'data': masked_data[0],
-                            'transform': out_transform,
-                            'nodata': src.nodata,
-                            'crs': src.crs
-                        })
-                        
-                        # Calculate areas
-                        pixel_area = calculate_pixel_area(center_lat)
-                        data = masked_data[0]
-                        
-                        areas = {
-                            'no_data': np.sum(data == src.nodata) * pixel_area,
-                            1: np.sum(data == 1) * pixel_area,
-                            2: np.sum(data == 2) * pixel_area,
-                            3: np.sum(data == 3) * pixel_area
-                        }
-                        
-                        results.append({
-                            'areas': areas,
-                            'total_pixels': data.size,
-                            'valid_pixels': np.sum(data != src.nodata)
-                        })
-                        
+                if not file_path:
+                    logger.warning(f"Tile {tile_id} not available")
+                    missing_tiles.append(tile_id)
+                    continue
+                    
+                with rasterio.open(file_path) as src:
+                    
+                    # Get center latitude for area calculation
+                    bounds = geom.bounds
+                    center_lat = (bounds[1] + bounds[3]) / 2
+                    
+                    # Mask with proper nodata handling
+                    masked_data, out_transform = mask(
+                        src, 
+                        [mapping(geom)], 
+                        crop=True, 
+                        all_touched=True,
+                        nodata=src.nodata
+                    )
+                    
+                    # Store masked dataset for merging
+                    masked_datasets.append({
+                        'data': masked_data[0],
+                        'transform': out_transform,
+                        'nodata': src.nodata,
+                        'crs': src.crs
+                    })
+                    
+                    # Calculate areas
+                    pixel_area = calculate_pixel_area(center_lat)
+                    data = masked_data[0]
+                    
+                    areas = {
+                        'no_data': np.sum(data == src.nodata) * pixel_area,
+                        1: np.sum(data == 1) * pixel_area,
+                        2: np.sum(data == 2) * pixel_area,
+                        3: np.sum(data == 3) * pixel_area
+                    }
+                    
+                    results.append({
+                        'areas': areas,
+                        'total_pixels': data.size,
+                        'valid_pixels': np.sum(data != src.nodata)
+                    })
+
+                    # [Previous masking and calculation code remains the same]
+                    successful_tiles += 1
+                    
             except Exception as e:
                 logger.error(f"Error processing tile {tile_id}: {str(e)}")
                 missing_tiles.append(tile_id)
+# Check if we have any successful tile processing
+        if not successful_tiles:
+            logger.warning(f"No valid tiles processed for polygon {polygon_id}")
+            # Store empty results in database
+            polygon.cropland_data = {
+                "areas": {
+                    "Ocean and Water bodies": {
+                        "area_m2": 0.0,
+                        "area_ha": 0.0,
+                        "area_km2": 0.0,
+                        "area_acres": 0.0,
+                        "area_sq_mile": 0.0,
+                        "percentage": 0.0
+                    },
+                    "Non-croplands": {
+                        "area_m2": 0.0,
+                        "area_ha": 0.0,
+                        "area_km2": 0.0,
+                        "area_acres": 0.0,
+                        "area_sq_mile": 0.0,
+                        "percentage": 0.0
+                    },
+                    "Irrigated croplands": {
+                        "area_m2": 0.0,
+                        "area_ha": 0.0,
+                        "area_km2": 0.0,
+                        "area_acres": 0.0,
+                        "area_sq_mile": 0.0,
+                        "percentage": 0.0
+                    },
+                    "Rainfed croplands": {
+                        "area_m2": 0.0,
+                        "area_ha": 0.0,
+                        "area_km2": 0.0,
+                        "area_acres": 0.0,
+                        "area_sq_mile": 0.0,
+                        "percentage": 0.0
+                    }
+                },
+                "total_area_km2": 0.0,
+                "total_area_sq_mile": 0.0,
+                "total_pixels": 0,
+                "valid_pixels": 0,
+                "missing_tiles": missing_tiles,
+                "coverage_percentage": 0.0
+            }
+            polygon.analysis_status = 'no_data'
+            db.commit()
+            
+            return {"status": "success", "message": "No data available for this area"}
+
 
         # Merge masked rasters if we have data
         if masked_datasets:
@@ -379,6 +442,15 @@ async def analyze_polygon(polygon_id: int, db: Session = Depends(get_db)):
             3: 0   # Rainfed croplands
         }
 
+
+        # Updated key map with proper descriptions
+        key_map = {
+            0: 'Ocean and Water bodies',
+            1: 'Non-croplands',
+            2: 'Irrigated croplands',
+            3: 'Rainfed croplands'
+        }
+
         total_pixels = 0
         valid_pixels = 0
         
@@ -393,14 +465,7 @@ async def analyze_polygon(polygon_id: int, db: Session = Depends(get_db)):
         # Calculate total valid area (excluding ocean/water/no data)
         total_valid_area = float(sum(v for k, v in total_areas.items() if k != 0))
         
-        # Updated key map with proper descriptions
-        key_map = {
-            0: 'Ocean and Water bodies',
-            1: 'Non-croplands',
-            2: 'Irrigated croplands',
-            3: 'Rainfed croplands'
-        }
-
+        # Prevent division by zero when calculating percentages
         formatted_results = {
             'areas': {
                 key_map[k]: {
@@ -409,26 +474,33 @@ async def analyze_polygon(polygon_id: int, db: Session = Depends(get_db)):
                     'area_km2': float(v / 1000000),
                     'area_acres': float(v / 4046.86),
                     'area_sq_mile': float(v / 2589988.11),
-                    'percentage': float(v / total_valid_area * 100) if k != 0 else 0.0
+                    'percentage': float(v / total_valid_area * 100) if total_valid_area > 0 and k != 0 else 0.0
                 }
                 for k, v in total_areas.items()
             },
             'total_area_km2': float(total_valid_area / 1000000),
             'total_area_sq_mile': float(total_valid_area / 2589988.11),
             'total_pixels': int(total_pixels),
-            'valid_pixels': int(valid_pixels)
+            'valid_pixels': int(valid_pixels),
+            'missing_tiles': missing_tiles,
+            'coverage_percentage': float(successful_tiles / total_tiles * 100)
         }
         
         # Update database
         polygon.cropland_data = formatted_results
+        polygon.analysis_status = 'complete' if not missing_tiles else 'partial'
         db.commit()
 
-        return {"status": "success", "message": "Analysis complete"}
+        return {
+            "status": "success",
+            "message": "Analysis complete"
+        }
         
     except Exception as e:
         logger.error(f"Analysis error: {str(e)}")
         logger.exception(e)
         raise HTTPException(status_code=500, detail=str(e))
+
 
 @router.get("/", response_model=List[PolygonResponse])
 async def get_polygons(db: Session = Depends(get_db)):
@@ -614,42 +686,42 @@ async def get_raster(polygon_id: int, db: Session = Depends(get_db)):
 @router.get("/{polygon_id}/raster-preview/")
 async def get_raster_preview(polygon_id: int):
     """Get or create and serve the raster preview image"""
-    try:
+    # try:
 
-        polygon_dir = DATA_DIR / str(polygon_id)
-        polygon_dir.mkdir(exist_ok=True)
-        # masked_path = polygon_dir / f"masked_raster_{polygon_id}.tif"
+    polygon_dir = DATA_DIR / str(polygon_id)
+    polygon_dir.mkdir(exist_ok=True)
+    # masked_path = polygon_dir / f"masked_raster_{polygon_id}.tif"
 
-        # Define paths
-        tiff_path = polygon_dir / f"masked_raster_{polygon_id}.tif"
-        jpg_path = polygon_dir / f"masked_raster_{polygon_id}.jpg"
-        
-        # Check if TIFF exists
-        if not tiff_path.exists():
-            raise HTTPException(status_code=404, detail="Raster TIFF not found")
-        
-        # Check if JPG exists, if not, create it
-        if not jpg_path.exists():
-            jpg_path.parent.mkdir(parents=True, exist_ok=True)
-            with rasterio.open(tiff_path) as src:
-                # Read the first band
-                band1 = src.read(1)
-                # Normalize the band to 0-255
-                band1 = ((band1 - band1.min()) / (band1.max() - band1.min()) * 255).astype('uint8')
-                # Create an image from the band
-                img = Image.fromarray(band1)
-                img.save(jpg_path, 'JPEG', quality=85)
-        
-        # Serve the JPG
-        return Response(
-            content=jpg_path.read_bytes(),
-            media_type="image/jpeg"
-        )
-        
-    except Exception as e:
-        logger.error(f"Error serving raster preview: {str(e)}")
-        logger.error(f"Traceback: {traceback.format_exc()}")
-        raise HTTPException(status_code=500, detail=str(e))
+    # Define paths
+    tiff_path = polygon_dir / f"masked_raster_{polygon_id}.tif"
+    jpg_path = polygon_dir / f"masked_raster_{polygon_id}.jpg"
+    
+    # Check if TIFF exists
+    if not tiff_path.exists():
+        raise HTTPException(status_code=404, detail="Raster TIFF not found")
+    
+    # Check if JPG exists, if not, create it
+    if not jpg_path.exists():
+        jpg_path.parent.mkdir(parents=True, exist_ok=True)
+        with rasterio.open(tiff_path) as src:
+            # Read the first band
+            band1 = src.read(1)
+            # Normalize the band to 0-255
+            band1 = ((band1 - band1.min()) / (band1.max() - band1.min()) * 255).astype('uint8')
+            # Create an image from the band
+            img = Image.fromarray(band1)
+            img.save(jpg_path, 'JPEG', quality=85)
+    
+    # Serve the JPG
+    return Response(
+        content=jpg_path.read_bytes(),
+        media_type="image/jpeg"
+    )
+    
+    # except Exception as e:
+    #     logger.error(f"Error serving raster preview: {str(e)}")
+    #     logger.error(f"Traceback: {traceback.format_exc()}")
+    #     raise HTTPException(status_code=500, detail=str(e))
 
 @router.get("/{polygon_id}/download-raster-preview")
 async def download_raster_preview(polygon_id: int):

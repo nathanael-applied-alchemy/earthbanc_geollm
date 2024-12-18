@@ -17,7 +17,7 @@
     "leaflet-defaulticon-compatibility": "^0.1.2",
     "next": "^14.2.20",
     "npm": "^11.0.0",
-    "osmtogeojson": "^3.0.0-beta.5",
+    "osmtogeojson": "^2.2.12",
     "react": "^18",
     "react-dom": "^18",
     "react-leaflet": "^4.2.1",

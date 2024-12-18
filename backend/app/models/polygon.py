@@ -25,7 +25,7 @@ class AnalysisPolygon(Base):
     # Metadata for verification
     analysis_metadata = Column(JSON, nullable=True)  # Store versions, timestamps, etc.
     analysis_history = Column(JSON, nullable=True)  # Track processing steps
-
+    analysis_status = Column(String, nullable=True)  # Add this line
     # Relationship with Export model
     exports = relationship("Export", back_populates="polygon")
     vision_analyses = relationship("VisionAnalysis", back_populates="polygon")

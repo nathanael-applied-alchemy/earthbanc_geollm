@@ -10,6 +10,8 @@ from tqdm import tqdm
 import netrc
 import time
 
+
+
 load_dotenv()
 
 logger = logging.getLogger(__name__)
@@ -17,10 +19,15 @@ logger = logging.getLogger(__name__)
 class LGRIPFileManager:
     def __init__(self):
         self.local_dir = Path("app/data/lgrip30_files")
-        self.nasa_username = os.getenv("NASA_EARTHDATA_USERNAME")
-        self.nasa_password = os.getenv("NASA_EARTHDATA_PASSWORD")
+        # self.nasa_username = os.getenv("NASA_EARTHDATA_USERNAME")
+        self.nasa_username = 'nathanael2020'
+        # self.nasa_password = os.getenv("NASA_EARTHDATA_PASSWORD")
+        self.nasa_password = 'P.HRnSQtLji9=%h'
         self.session = None
         
+        print(self.nasa_username)
+        print(self.nasa_password)
+
         # Ensure local directory exists
         self.local_dir.mkdir(parents=True, exist_ok=True)
         
@@ -31,7 +38,14 @@ class LGRIPFileManager:
         """Setup .netrc file for NASA Earthdata authentication"""
         netrc_path = os.path.expanduser("~/.netrc")
         
+
+        print(netrc_path)
+
         if not os.path.exists(netrc_path):
+        
+            print("Creating .netrc file")
+            print(f"""machine urs.earthdata.nasa.gov login {self.nasa_username} password {self.nasa_password}
+machine e4ftl01.cr.usgs.gov login {self.nasa_username} password {self.nasa_password}""")
             with open(netrc_path, 'w') as f:
                 f.write(f"""machine urs.earthdata.nasa.gov login {self.nasa_username} password {self.nasa_password}
 machine e4ftl01.cr.usgs.gov login {self.nasa_username} password {self.nasa_password}""")

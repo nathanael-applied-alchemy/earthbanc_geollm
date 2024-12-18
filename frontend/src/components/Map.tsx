@@ -6,6 +6,7 @@ import { EditControl } from 'react-leaflet-draw';
 import type { FeatureGroup as FeatureGroupType } from 'leaflet';
 import { useRef, useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { API_BASE } from '@/lib/api';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
@@ -117,7 +118,7 @@ const Map = ({ onPolygonCreated, polygons = [], onPolygonClick, onSessionClear, 
     
     try {
       console.log('Clearing session:', sessionId);
-      const response = await fetch(`/api/polygons/clear/${sessionId}`, {
+      const response = await fetch(`${API_BASE}/api/polygons/clear/${sessionId}`, {
         method: 'DELETE',
       });
       
@@ -149,7 +150,7 @@ const Map = ({ onPolygonCreated, polygons = [], onPolygonClick, onSessionClear, 
   const createSession = async () => {
     try {
       console.log('Making request to create session...');
-      const response = await fetch('/api/polygons/session', {
+      const response = await fetch(`${API_BASE}/api/polygons/session`, {
         method: 'POST',
       });
       

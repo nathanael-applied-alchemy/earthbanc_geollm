@@ -46,6 +46,8 @@ app.add_middleware(
     allow_origins=[
         f"http://localhost:{FRONTEND_PORT}",
         f"http://localhost:3007",
+        f"https://geollm.astrowaffle.com",
+        f"https://www.geollm.astrowaffle.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -53,8 +55,14 @@ app.add_middleware(
     expose_headers=["*"],
 )
 
+@app.middleware("http")
+async def debug_request(request: Request, call_next):
+    print(f"Incoming request path: {request.url.path}")
+    print(f"Incoming request URL: {request.url}")
+    response = await call_next(request)
+    return response
 
-@app.post("/api/analyze")
+@app.post("/analyze")
 async def analyze_polygon(polygon: dict):
     try:
         # Validate GeoJSON
@@ -64,6 +72,14 @@ async def analyze_polygon(polygon: dict):
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 
+
+# Add middleware first
+@app.middleware("http")
+async def remove_api_prefix(request: Request, call_next):
+    if request.url.path.startswith("/api/"):
+        request.scope["path"] = request.url.path.replace("/api/", "/", 1)
+    response = await call_next(request)
+    return response
 
 # Middleware to add trailing slashes
 @app.middleware("http")
@@ -79,8 +95,8 @@ async def add_trailing_slash(request: Request, call_next):
     return response
 
 # Include routers
-app.include_router(polygon_router, prefix="/api/polygons", tags=["polygons"])
-app.include_router(satellite_router, prefix="/api/satellite", tags=["satellite"])
+app.include_router(polygon_router, prefix="/polygons", tags=["polygons"])
+app.include_router(satellite_router, prefix="/satellite", tags=["satellite"])
 
 # app.include_router(demo_table_router, prefix="/api/v1")
 
