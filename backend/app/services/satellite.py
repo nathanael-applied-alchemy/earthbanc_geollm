@@ -128,28 +128,6 @@ def get_drive_service():
     
     return build('drive', 'v3', credentials=credentials)
 
-# # Initialize Google Drive service
-# def get_drive_service():
-#     """Get or create Google Drive service."""
-#     SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
-#     creds = None
-    
-#     if os.path.exists('token.pickle'):
-#         with open('token.pickle', 'rb') as token:
-#             creds = pickle.load(token)
-            
-#     if not creds or not creds.valid:
-#         if creds and creds.expired and creds.refresh_token:
-#             creds.refresh(Request())
-#         else:
-#             flow = InstalledAppFlow.from_client_secrets_file(
-#                 'client_secret.json', SCOPES)
-#             creds = flow.run_local_server(port=0)
-#         with open('token.pickle', 'wb') as token:
-#             pickle.dump(creds, token)
-
-#     return build('drive', 'v3', credentials=creds)
-
 async def find_and_download_file(file_name: str, folder_name: str, max_retries: int = 10) -> str:
     """Find and download a file from Google Drive."""
     service = get_drive_service()
