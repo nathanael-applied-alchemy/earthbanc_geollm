@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3007",
+    "dev": "next dev -p 3009",
     "build": "next build",
-    "start": "next start -p 3007",
+    "start": "next start -p 3009",
     "lint": "eslint . --ext .ts,.tsx"
   },
   "dependencies": {
@@ -21,7 +21,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-leaflet": "^4.2.1",
-    "react-leaflet-draw": "^0.20.4"
+    "react-leaflet-draw": "^0.20.4",
+    "react-toastify": "^11.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",

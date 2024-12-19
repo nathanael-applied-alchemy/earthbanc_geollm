@@ -35,7 +35,8 @@ task_statuses = {}
 logger = logging.getLogger(__name__)
 
 # Constants
-OUTPUT_DIR = Path(os.path.dirname(os.path.dirname(__file__))) / "data" / "saved_pngs"
+OUTPUT_DIR = Path(os.path.dirname(os.path.dirname(__file__))) / "data" / "saved_images"
+
 
 # Visualization configurations for different band types
 visualizations = {
@@ -118,7 +119,7 @@ def calculate_area_in_sq_km(polygon_geojson):
 
 def get_drive_service():
     """Get Google Drive service using service account."""
-    SERVICE_ACCOUNT_FILE = 'ee-nmiksis-7aa1d0ba5ab4.json'
+    SERVICE_ACCOUNT_FILE = 'google-ee-credentials.json'
     SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
     
     credentials = service_account.Credentials.from_service_account_file(
@@ -127,28 +128,6 @@ def get_drive_service():
     )
     
     return build('drive', 'v3', credentials=credentials)
-
-# # Initialize Google Drive service
-# def get_drive_service():
-#     """Get or create Google Drive service."""
-#     SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
-#     creds = None
-    
-#     if os.path.exists('token.pickle'):
-#         with open('token.pickle', 'rb') as token:
-#             creds = pickle.load(token)
-            
-#     if not creds or not creds.valid:
-#         if creds and creds.expired and creds.refresh_token:
-#             creds.refresh(Request())
-#         else:
-#             flow = InstalledAppFlow.from_client_secrets_file(
-#                 'client_secret.json', SCOPES)
-#             creds = flow.run_local_server(port=0)
-#         with open('token.pickle', 'wb') as token:
-#             pickle.dump(creds, token)
-
-#     return build('drive', 'v3', credentials=creds)
 
 async def find_and_download_file(file_name: str, folder_name: str, max_retries: int = 10) -> str:
     """Find and download a file from Google Drive."""
@@ -203,7 +182,7 @@ async def find_and_download_file(file_name: str, folder_name: str, max_retries: 
             
     return None
 
-def convert_tif_to_png(tif_path, output_dir="app/data/saved_pngs"):
+def convert_tif_to_png(tif_path, output_dir="app/data/saved_images"):
     """Convert GeoTIFF to PNG and save it."""
     try:
         # Create output directory if it doesn't exist
@@ -246,12 +225,9 @@ async def process_spectral_band(polygon_geojson, band_type):
 
 
         credentials = service_account.Credentials.from_service_account_file(
-            'ee-nmiksis-7aa1d0ba5ab4.json',
+            'google-ee-credentials.json',
             scopes=['https://www.googleapis.com/auth/earthengine'])
         ee.Initialize(credentials)
-
-
-        # ee.Initialize(project="ee-nmiksis")
 
         # Convert GeoJSON to Shapely geometry
         polygon = shape(polygon_geojson)
@@ -263,10 +239,10 @@ async def process_spectral_band(polygon_geojson, band_type):
 
         # Get the most recent cloud-free Sentinel-2 image
         sentinel = (ee.ImageCollection('COPERNICUS/S2_SR_HARMONIZED')
-                   .filterBounds(region)
-                   .filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 20))
-                   .sort('CLOUDY_PIXEL_PERCENTAGE')
-                   .first())
+                    .filterBounds(region)
+                    .filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 20))
+                    .sort('CLOUDY_PIXEL_PERCENTAGE')
+                    .first())
 
         # Get visualization config for the specific band
         vis_config = visualizations[band_type]
@@ -315,6 +291,7 @@ async def process_spectral_band(polygon_geojson, band_type):
             await asyncio.sleep(5)
 
         return None
+
     except Exception as e:
         logger.error(f"Error processing {band_type}: {str(e)}")
         task_statuses[band_type] = {'status': 'failed', 'error': str(e)}

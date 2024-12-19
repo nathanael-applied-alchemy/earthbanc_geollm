@@ -1,7 +1,7 @@
 // frontend/src/lib/api.ts
-export const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8007';
+export const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8009';
 
-console.log('API_BASE:', process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8007');
+console.log('API_BASE:', process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8009');
 
 export interface AreaInfo {
   pixel_count: number;

@@ -8,7 +8,7 @@ node_modules
 
 **/backend/alembic/versions/*
 
-**/ee-nmiksis-7aa1d0ba5ab4.json
+**/google-ee-credentials.json
 
 **/populate_demo_data.py
 
@@ -22,7 +22,7 @@ node_modules
 
 token.pickle
 
-**/saved_pngs/*
+**/saved_images/*
 
 **/satellite_images/*
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8007';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8009';
 
 interface SatelliteImageProps {
   geojson: any;  // The polygon GeoJSON to analyze

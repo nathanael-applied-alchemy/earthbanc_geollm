@@ -37,15 +37,14 @@ app = FastAPI(
 )
 
 # Get ports from environment
-FRONTEND_PORT = os.getenv('FRONTEND_PORT', '3007')
-API_PORT = os.getenv('API_PORT', '8007')
+FRONTEND_PORT = os.getenv('FRONTEND_PORT', '3009')
+API_PORT = os.getenv('API_PORT', '8009')
 
 # CORS configuration with dynamic ports
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         f"http://localhost:{FRONTEND_PORT}",
-        f"http://localhost:3007",
         f"https://geollm.astrowaffle.com",
         f"https://www.geollm.astrowaffle.com",
     ],
