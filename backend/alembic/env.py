@@ -9,43 +9,11 @@ from alembic import context
 
 import logging
 import sys
-
-# In alembic/env.py at the top:
-from dotenv import load_dotenv
 import os
 
-load_dotenv()
-
 # Make sure this stays at the top after imports
+from dotenv import load_dotenv
 load_dotenv()
-
-def get_url():
-    url = os.getenv("DATABASE_URL")
-    if url is None:
-        raise ValueError("DATABASE_URL environment variable is not set")
-    return url
-
-def run_migrations_online() -> None:
-    """Run migrations in 'online' mode."""
-    logger.debug("Starting online migrations")
-    
-    # Replace the engine configuration to use get_url()
-    configuration = config.get_section(config.config_ini_section, {})
-    configuration["sqlalchemy.url"] = get_url()
-    
-    connectable = engine_from_config(
-        configuration,
-        prefix="sqlalchemy.",
-        poolclass=pool.NullPool,
-    )
-
-    with connectable.connect() as connection:
-        context.configure(
-            connection=connection, target_metadata=target_metadata, include_object=include_object
-        )
-
-        with context.begin_transaction():
-            context.run_migrations()
 
 config = context.config
 
@@ -93,6 +61,11 @@ def include_object(object, name, type_, reflected, compare_to):
 # my_important_option = config.get_main_option("my_important_option")
 # ... etc.
 
+def get_url():
+    url = os.getenv("DATABASE_URL")
+    if url is None:
+        raise ValueError("DATABASE_URL environment variable is not set")
+    return url
 
 def run_migrations_offline() -> None:
     """Run migrations in 'offline' mode.
@@ -106,8 +79,9 @@ def run_migrations_offline() -> None:
     script output.
 
     """
+    url = get_url()
     context.configure(
-        url=get_url(),
+        url=url,
         target_metadata=target_metadata,
         literal_binds=True,
         dialect_opts={"paramstyle": "named"},
@@ -116,6 +90,38 @@ def run_migrations_offline() -> None:
 
     with context.begin_transaction():
         context.run_migrations()
+
+
+def run_migrations_online() -> None:
+    """Run migrations in 'online' mode.
+
+    In this scenario we need to create an Engine
+    and associate a connection with the context.
+
+    """
+
+    logger.debug("Starting online migrations")
+    logger.debug(f"Tables in metadata: {Base.metadata.tables.keys()}")
+    for table in Base.metadata.tables.values():
+        logger.debug(f"Columns in {table.name}: {[c.name for c in table.columns]}")
+
+    # Replace the engine configuration to use get_url()
+    configuration = config.get_section(config.config_ini_section, {})
+    configuration["sqlalchemy.url"] = get_url()
+    
+    connectable = engine_from_config(
+        configuration,
+        prefix="sqlalchemy.",
+        poolclass=pool.NullPool,
+    )
+
+    with connectable.connect() as connection:
+        context.configure(
+            connection=connection, target_metadata=target_metadata, include_object=include_object
+        )
+
+        with context.begin_transaction():
+            context.run_migrations()
 
 
 if context.is_offline_mode():
