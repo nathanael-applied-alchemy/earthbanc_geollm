@@ -2,6 +2,9 @@
 
 GeoLLM is a dynamic learning tool designed to bridge the gap between manual geospatial analysis and AI-driven approaches. It serves as a platform for structured experimentation and iterative learning, enabling researchers and practitioners to combine human expertise with AI capabilities effectively.
 
+## Demo
+https://geollm.astrowaffle.com/
+
 ## Project Philosophy
 
 GeoLLM positions itself between traditional manual workflows and high-level AI agents, serving as a "Swiss Army knife" for:
