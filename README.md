@@ -193,6 +193,11 @@ The project includes a comprehensive cropland analysis example that demonstrates
    - Edge case handling
    - Result validation
 
+## Additional Resources
+
+1. GeoLLM URL: geollm.astrowaffle.com
+2. https://docs.google.com/document/d/1jmxOM9mEgLTsytqRr9KzAtG4WhoQ1VepoU-gG8tW3u4/edit?usp=sharing
+
 ## Contributing
 
 1. Fork the repository
