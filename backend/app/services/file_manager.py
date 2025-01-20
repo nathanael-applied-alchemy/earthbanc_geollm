@@ -19,10 +19,8 @@ logger = logging.getLogger(__name__)
 class LGRIPFileManager:
     def __init__(self):
         self.local_dir = Path("app/data/lgrip30_files")
-        # self.nasa_username = os.getenv("NASA_EARTHDATA_USERNAME")
-        self.nasa_username = 'nathanael2020'
-        # self.nasa_password = os.getenv("NASA_EARTHDATA_PASSWORD")
-        self.nasa_password = 'P.HRnSQtLji9=%h'
+        self.nasa_username = os.getenv("NASA_EARTHDATA_USERNAME")
+        self.nasa_password = os.getenv("NASA_EARTHDATA_PASSWORD")
         self.session = None
         
         print(self.nasa_username)
